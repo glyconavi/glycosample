@@ -1,0 +1,1398 @@
+@prefix gs: <http://glyconavi.org/glycobio/glycosample/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+
+gs:Glycosample	gs:has_resource	gs:GS_1.
+gs:GS_1	gs:glycosample_id	"GS_1".
+gs:GS_1	dcterms:identifier	"GS_1".
+gs:GS_1	rdf:type	gs:Sample.
+gs:GS_1	gs:glycosample_entry	gs:GS_1_E1.
+gs:GS_1_E1	rdf:type	gs:Sample_Entry.
+gs:GS_1_E1	gs:pmid	"1820200".
+gs:GS_1_E1	dcterms:reference	<http://identifiers.org/pubmed/1820200>.
+<http://identifiers.org/pubmed/1820200>	dcterms:identifier	"1820200".
+<http://identifiers.org/pubmed/1820200>	rdf:type	fabio:JournalArticle .
+gs:GS_1_E1	gs:journal_name	"Glycobiology".
+gs:GS_1_E1	gs:journal_site	"Weisshaar G._et_al_Fig.6".
+gs:GS_1_E1	gs:journal_title	"Site-specific N-glycosylation of human chorionic gonadotrophin--structural analysis of glycopeptides by one- and two-dimensional 1H NMR spectroscopy.".
+gs:GS_1_E1	gs:organism	"Human".
+gs:GS_1_E1	gs:taxonomy_name	"Homo sapiens".
+gs:GS_1_E1	gs:taxonomy_id	"9606".
+gs:GS_1_E1	gs:biomaterial_provider	"National Hormone and Pituitary Program (NHPP), University of Maryland School of Medicine, and the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), USA".
+gs:GS_1_E1	gs:tissue_type	"biologically active urinary (NIDDK CR127)".
+
+gs:Glycosample	gs:has_resource	gs:GS_10.
+gs:GS_10	gs:glycosample_id	"GS_10".
+gs:GS_10	dcterms:identifier	"GS_10".
+gs:GS_10	rdf:type	gs:Sample.
+gs:GS_10	gs:glycosample_entry	gs:GS_10_E1.
+gs:GS_10_E1	rdf:type	gs:Sample_Entry.
+gs:GS_10_E1	gs:pmid	"24295106".
+gs:GS_10_E1	dcterms:reference	<http://identifiers.org/pubmed/24295106>.
+<http://identifiers.org/pubmed/24295106>	dcterms:identifier	"24295106".
+<http://identifiers.org/pubmed/24295106>	rdf:type	fabio:JournalArticle .
+gs:GS_10_E1	gs:journal_name	"J Proteome Res. ".
+gs:GS_10_E1	gs:journal_site	"Sethi MK._et_al_Fig5D".
+gs:GS_10_E1	gs:journal_title	"Comparative N-glycan profiling of colorectal cancer cell lines reveals unique bisecting GlcNAc and α-2,3-linked sialic acid determinants are associated with membrane proteins of the more metastatic/aggressive cell lines.".
+gs:GS_10_E1	gs:biomaterial_provider	"Ludwig Institute for Cancer Research Ltd. (Parkville, Victoria, Australia)".
+gs:GS_10_E1	gs:cell_line	"LIM1215 (colorectal cancer cell lines) *2 ".
+gs:GS_10_E1	gs:disease	"colorectal cancer".
+
+gs:Glycosample	gs:has_resource	gs:GS_11.
+gs:GS_11	gs:glycosample_id	"GS_11".
+gs:GS_11	dcterms:identifier	"GS_11".
+gs:GS_11	rdf:type	gs:Sample.
+gs:GS_11	gs:glycosample_entry	gs:GS_11_E1.
+gs:GS_11_E1	rdf:type	gs:Sample_Entry.
+gs:GS_11_E1	gs:pmid	"24295106".
+gs:GS_11_E1	dcterms:reference	<http://identifiers.org/pubmed/24295106>.
+<http://identifiers.org/pubmed/24295106>	dcterms:identifier	"24295106".
+<http://identifiers.org/pubmed/24295106>	rdf:type	fabio:JournalArticle .
+gs:GS_11_E1	gs:journal_name	"J Proteome Res. ".
+gs:GS_11_E1	gs:journal_site	"Sethi MK._et_al_Fig5D".
+gs:GS_11_E1	gs:journal_title	"Comparative N-glycan profiling of colorectal cancer cell lines reveals unique bisecting GlcNAc and α-2,3-linked sialic acid determinants are associated with membrane proteins of the more metastatic/aggressive cell lines.".
+gs:GS_11_E1	gs:biomaterial_provider	"Ludwig Institute for Cancer Research Ltd. (Parkville, Victoria, Australia)".
+gs:GS_11_E1	gs:cell_line	"LIM1899 (colorectal cancer cell lines) *2".
+gs:GS_11_E1	gs:disease	"colorectal cancer".
+
+gs:Glycosample	gs:has_resource	gs:GS_12.
+gs:GS_12	gs:glycosample_id	"GS_12".
+gs:GS_12	dcterms:identifier	"GS_12".
+gs:GS_12	rdf:type	gs:Sample.
+gs:GS_12	gs:glycosample_entry	gs:GS_12_E1.
+gs:GS_12_E1	rdf:type	gs:Sample_Entry.
+gs:GS_12_E1	gs:pmid	"24295106".
+gs:GS_12_E1	dcterms:reference	<http://identifiers.org/pubmed/24295106>.
+<http://identifiers.org/pubmed/24295106>	dcterms:identifier	"24295106".
+<http://identifiers.org/pubmed/24295106>	rdf:type	fabio:JournalArticle .
+gs:GS_12_E1	gs:journal_name	"J Proteome Res. ".
+gs:GS_12_E1	gs:journal_site	"Sethi MK._et_al_Fig5D".
+gs:GS_12_E1	gs:journal_title	"Comparative N-glycan profiling of colorectal cancer cell lines reveals unique bisecting GlcNAc and α-2,3-linked sialic acid determinants are associated with membrane proteins of the more metastatic/aggressive cell lines.".
+gs:GS_12_E1	gs:biomaterial_provider	"Ludwig Institute for Cancer Research Ltd. (Parkville, Victoria, Australia)".
+gs:GS_12_E1	gs:cell_line	"LIM2405 (colorectal cancer cell lines) *2".
+gs:GS_12_E1	gs:disease	"colorectal cancer".
+
+gs:Glycosample	gs:has_resource	gs:GS_13.
+gs:GS_13	gs:glycosample_id	"GS_13".
+gs:GS_13	dcterms:identifier	"GS_13".
+gs:GS_13	rdf:type	gs:Sample.
+gs:GS_13	gs:glycosample_entry	gs:GS_13_E1.
+gs:GS_13_E1	rdf:type	gs:Sample_Entry.
+gs:GS_13_E1	gs:pmid	"10460833".
+gs:GS_13_E1	dcterms:reference	<http://identifiers.org/pubmed/10460833>.
+<http://identifiers.org/pubmed/10460833>	dcterms:identifier	"10460833".
+<http://identifiers.org/pubmed/10460833>	rdf:type	fabio:JournalArticle .
+gs:GS_13_E1	gs:journal_name	"Glycobiology.".
+gs:GS_13_E1	gs:journal_site	"Gayer H. et_al_Table1".
+gs:GS_13_E1	gs:journal_title	"Characterization of human vascular endothelial cadherin glycans.".
+gs:GS_13_E1	gs:organism	"human".
+gs:GS_13_E1	gs:taxonomy_name	"Homo sapiens".
+gs:GS_13_E1	gs:taxonomy_id	"9606".
+gs:GS_13_E1	gs:sample_type	"human umibilical vein endothelial cells (HUVEC)".
+
+gs:Glycosample	gs:has_resource	gs:GS_14.
+gs:GS_14	gs:glycosample_id	"GS_14".
+gs:GS_14	dcterms:identifier	"GS_14".
+gs:GS_14	rdf:type	gs:Sample.
+gs:GS_14	gs:glycosample_entry	gs:GS_14_E1.
+gs:GS_14_E1	rdf:type	gs:Sample_Entry.
+gs:GS_14_E1	gs:pmid	"7372628".
+gs:GS_14_E1	dcterms:reference	<http://identifiers.org/pubmed/7372628>.
+<http://identifiers.org/pubmed/7372628>	dcterms:identifier	"7372628".
+<http://identifiers.org/pubmed/7372628>	rdf:type	fabio:JournalArticle .
+gs:GS_14_E1	gs:journal_name	"J Biol Chem.".
+gs:GS_14_E1	gs:journal_site	"Yamashita K._et_al_Table2".
+gs:GS_14_E1	gs:journal_title	"Urinary oligosaccharides of mannosidosis.".
+gs:GS_14_E1	gs:organism	"human".
+gs:GS_14_E1	gs:taxonomy_name	"Homo sapiens".
+gs:GS_14_E1	gs:taxonomy_id	"9606".
+gs:GS_14_E1	gs:biomaterial_provider	"Fuykuoka University".
+gs:GS_14_E1	gs:age	"10, 18 years old".
+gs:GS_14_E1	gs:disease	"α-mannosidosis".
+gs:GS_14_E1	gs:disease_stage	"not dtata".
+gs:GS_14_E1	gs:sample_type	"urinary".
+gs:GS_14_E1	gs:sex	"male (18 years old), female (10 years old) :brother and sister".
+
+gs:Glycosample	gs:has_resource	gs:GS_15.
+gs:GS_15	gs:glycosample_id	"GS_15".
+gs:GS_15	dcterms:identifier	"GS_15".
+gs:GS_15	rdf:type	gs:Sample.
+gs:GS_15	gs:glycosample_entry	gs:GS_15_E1.
+gs:GS_15_E1	rdf:type	gs:Sample_Entry.
+gs:GS_15	gs:glycosample_entry	gs:GS_15_E2.
+gs:GS_15_E2	rdf:type	gs:Sample_Entry.
+gs:GS_15_E1	gs:pmid	"3624241".
+gs:GS_15_E1	dcterms:reference	<http://identifiers.org/pubmed/3624241>.
+<http://identifiers.org/pubmed/3624241>	dcterms:identifier	"3624241".
+<http://identifiers.org/pubmed/3624241>	rdf:type	fabio:JournalArticle .
+gs:GS_15_E2	gs:pmid	"4736590".
+gs:GS_15_E2	dcterms:reference	<http://identifiers.org/pubmed/4736590>.
+<http://identifiers.org/pubmed/4736590>	dcterms:identifier	"4736590".
+<http://identifiers.org/pubmed/4736590>	rdf:type	fabio:JournalArticle .
+gs:GS_15_E1	gs:journal_name	"J Biol Chem. ".
+gs:GS_15_E2	gs:journal_name	"J Biol Chem. ".
+gs:GS_15_E1	gs:journal_site	"Fukuda M._et_al_Table2".
+gs:GS_15_E2	gs:journal_site	"Fukuda M. and Osawa T._Materials and Methods".
+gs:GS_15_E1	gs:journal_title	"Structures of novel sialylated O-linked oligosaccharides isolated from human erythrocyte glycophorins.".
+gs:GS_15_E2	gs:journal_title	"Isolation and characterization of a glycoprotein from human group O erythrocyte membrane.".
+gs:GS_15_E1	gs:organism	"human".
+gs:GS_15_E1	gs:taxonomy_name	"Homo sapiens".
+gs:GS_15_E1	gs:taxonomy_id	"9606".
+gs:GS_15_E2	gs:isolation_source	"Nihon seiyaku Co, Tokyo.".
+gs:GS_15_E1	gs:sample_type	"see PMID:4736590".
+gs:GS_15_E2	gs:sample_type	"blood group O-type individuals".
+
+gs:Glycosample	gs:has_resource	gs:GS_16.
+gs:GS_16	gs:glycosample_id	"GS_16".
+gs:GS_16	dcterms:identifier	"GS_16".
+gs:GS_16	rdf:type	gs:Sample.
+gs:GS_16	gs:glycosample_entry	gs:GS_16_E1.
+gs:GS_16_E1	rdf:type	gs:Sample_Entry.
+gs:GS_16_E1	gs:pmid	"8416919".
+gs:GS_16_E1	dcterms:reference	<http://identifiers.org/pubmed/8416919>.
+<http://identifiers.org/pubmed/8416919>	dcterms:identifier	"8416919".
+<http://identifiers.org/pubmed/8416919>	rdf:type	fabio:JournalArticle .
+gs:GS_16_E1	gs:journal_name	"J Biol Chem. ".
+gs:GS_16_E1	gs:journal_site	"Tomiya N._et_al_Table4".
+gs:GS_16_E1	gs:journal_title	"Structural elucidation of a variety of GalNAc-containing N-linked oligosaccharides from human urinary kallidinogenase.".
+gs:GS_16_E1	gs:organism	"human".
+gs:GS_16_E1	gs:taxonomy_name	"Homo sapiens".
+gs:GS_16_E1	gs:taxonomy_id	"9606".
+gs:GS_16_E1	gs:isolation_source	"JCR Phrmaceuticals Co., Ltd (Kobe Japan)".
+gs:GS_16_E1	gs:passage_history	"not dtata".
+gs:GS_16_E1	gs:sample_type	"fresh human urine".
+
+gs:Glycosample	gs:has_resource	gs:GS_17.
+gs:GS_17	gs:glycosample_id	"GS_17".
+gs:GS_17	dcterms:identifier	"GS_17".
+gs:GS_17	rdf:type	gs:Sample.
+gs:GS_17	gs:glycosample_entry	gs:GS_17_E1.
+gs:GS_17_E1	rdf:type	gs:Sample_Entry.
+gs:GS_17	gs:glycosample_entry	gs:GS17_E2.
+gs:GS_17_E2	rdf:type	gs:Sample_Entry.
+gs:GS_17_E1	gs:pmid	"7309709".
+gs:GS_17_E1	dcterms:reference	<http://identifiers.org/pubmed/7309709>.
+<http://identifiers.org/pubmed/7309709>	dcterms:identifier	"7309709".
+<http://identifiers.org/pubmed/7309709>	rdf:type	fabio:JournalArticle .
+gs:GS_17_E2	gs:pmid	"4633593".
+gs:GS_17_E2	dcterms:reference	<http://identifiers.org/pubmed/4633593>.
+<http://identifiers.org/pubmed/4633593>	dcterms:identifier	"4633593".
+<http://identifiers.org/pubmed/4633593>	rdf:type	fabio:JournalArticle .
+gs:GS_17_E1	gs:journal_name	"J Biochem.".
+gs:GS_17_E2	gs:journal_name	"Biochim Biophys Acta.".
+gs:GS_17_E1	gs:journal_site	"Mizuochi T._et_al_Fig.7".
+gs:GS_17_E2	gs:journal_site	"Kisiel W, and Hanahan DJ._materials and methods".
+gs:GS_17_E1	gs:journal_title	"Studies on the structures of the carbohydrate moiety of human prothrombin.".
+gs:GS_17_E2	gs:journal_title	"Purification and characterization of human Factor II.".
+gs:GS_17_E1	gs:organism	"human".
+gs:GS_17_E1	gs:taxonomy_name	"Homo sapiens".
+gs:GS_17_E1	gs:taxonomy_id	"9606".
+gs:GS_17_E1	gs:genotype	" ".
+gs:GS_17_E1	gs:sample_type	"human plasma, see PMID4633593".
+gs:GS_17_E1	gs:sex	"not data ".
+
+gs:Glycosample	gs:has_resource	gs:GS_18.
+gs:GS_18	gs:glycosample_id	"GS_18".
+gs:GS_18	dcterms:identifier	"GS_18".
+gs:GS_18	rdf:type	gs:Sample.
+gs:GS_18	gs:glycosample_entry	gs:GS_18_E1.
+gs:GS_18_E1	rdf:type	gs:Sample_Entry.
+gs:GS_18_E1	gs:pmid	"7118871".
+gs:GS_18_E1	dcterms:reference	<http://identifiers.org/pubmed/7118871>.
+<http://identifiers.org/pubmed/7118871>	dcterms:identifier	"7118871".
+<http://identifiers.org/pubmed/7118871>	rdf:type	fabio:JournalArticle .
+gs:GS_18_E1	gs:journal_name	"J Biochem".
+gs:GS_18_E1	gs:journal_site	"Mizuochi T._et_al Fig.7".
+gs:GS_18_E1	gs:journal_title	"Comparative studies on the structures of the carbohydrate moieties of human fibrinogen and abnormal fibrinogen Nagoya.".
+gs:GS_18_E1	gs:organism	"human".
+gs:GS_18_E1	gs:taxonomy_name	"Homo sapiens".
+gs:GS_18_E1	gs:taxonomy_id	"9606".
+gs:GS_18_E1	gs:isolation_source	"AB KABI, Stockholm, Sweden".
+gs:GS_18_E1	gs:sample_type	"human fibrinogen (Grade L)".
+
+gs:Glycosample	gs:has_resource	gs:GS_19.
+gs:GS_19	gs:glycosample_id	"GS_19".
+gs:GS_19	dcterms:identifier	"GS_19".
+gs:GS_19	rdf:type	gs:Sample.
+gs:GS_19	gs:glycosample_entry	gs:GS_19_E1.
+gs:GS_19_E1	rdf:type	gs:Sample_Entry.
+gs:GS_19_E1	gs:pmid	"7130179".
+gs:GS_19_E1	dcterms:reference	<http://identifiers.org/pubmed/7130179>.
+<http://identifiers.org/pubmed/7130179>	dcterms:identifier	"7130179".
+<http://identifiers.org/pubmed/7130179>	rdf:type	fabio:JournalArticle .
+gs:GS_19_E1	gs:journal_name	"J Biol Chem.".
+gs:GS_19_E1	gs:journal_site	"Yamashita K._et_al_Fig.7".
+gs:GS_19_E1	gs:journal_title	"Structural study of the carbohydrate moiety of hen ovomucoid. Occurrence of a series of pentaantennary complex-type asparagine-linked sugar chains.".
+gs:GS_19_E1	gs:organism	"hen".
+gs:GS_19_E1	gs:taxonomy_name	"Gallus gallus".
+gs:GS_19_E1	gs:taxonomy_id	"9031".
+gs:GS_19_E1	gs:tissue_type	"egg white".
+gs:GS_19_E1	gs:isolation_source	"Sigma".
+gs:GS_19_E1	gs:sample_type	"hen ovomucoid, free of ovoinhibitor".
+
+gs:Glycosample	gs:has_resource	gs:GS_2.
+gs:GS_2	gs:glycosample_id	"GS_2".
+gs:GS_2	dcterms:identifier	"GS_2".
+gs:GS_2	rdf:type	gs:Sample.
+gs:GS_2	gs:glycosample_entry	gs:GS_2_E1.
+gs:GS_2_E1	rdf:type	gs:Sample_Entry.
+gs:GS_2	gs:glycosample_entry	gs:GS_2_E2.
+gs:GS_2_E2	rdf:type	gs:Sample_Entry.
+gs:GS_2_E1	gs:pmid	"1991473".
+gs:GS_2_E1	dcterms:reference	<http://identifiers.org/pubmed/1991473>.
+<http://identifiers.org/pubmed/1991473>	dcterms:identifier	"1991473".
+<http://identifiers.org/pubmed/1991473>	rdf:type	fabio:JournalArticle .
+gs:GS_2_E2	gs:pmid	"2373987".
+gs:GS_2_E2	dcterms:reference	<http://identifiers.org/pubmed/2373987>.
+<http://identifiers.org/pubmed/2373987>	dcterms:identifier	"2373987".
+<http://identifiers.org/pubmed/2373987>	rdf:type	fabio:JournalArticle .
+gs:GS_2_E1	gs:journal_name	"Eur. J. Biochem. ".
+gs:GS_2_E2	gs:journal_name	"J. Endocrinol.".
+gs:GS_2_E1	gs:journal_site	"Weisshaar G._et_al_Table4".
+gs:GS_2_E2	gs:journal_site	"Hiyama J._et_al_Materials and Methods".
+gs:GS_2_E1	gs:journal_title	"NMR investigations of the N-linked oligosaccharides at individual glycosylation sites of human lutropin.".
+gs:GS_2_E2	gs:journal_title	"Purification of human pituitary LH and thyrotrophin by hydrophobic chromatography.".
+gs:GS_2_E1	gs:organism	"Human".
+gs:GS_2_E2	gs:organism	"Human".
+gs:GS_2_E1	gs:taxonomy_name	"Homo sapiens".
+gs:GS_2_E2	gs:taxonomy_name	"Homo sapiens".
+gs:GS_2_E1	gs:taxonomy_id	"9606".
+gs:GS_2_E2	gs:taxonomy_id	"9606".
+gs:GS_2_E2	gs:biomaterial_provider	"national pituitary collection programme (sponsored by the Department of Health and the Medical Research Council of New Zwaland)".
+gs:GS_2_E1	gs:tissue_type	"human pituitary glands".
+gs:GS_2_E1	gs:health_state	"different health".
+gs:GS_2_E1	gs:host_body_site	"brain".
+gs:GS_2_E1	gs:isolation_source	"different individuals".
+gs:GS_2_E1	gs:sex	"male, female".
+
+gs:Glycosample	gs:has_resource	gs:GS_20.
+gs:GS_20	gs:glycosample_id	"GS_20".
+gs:GS_20	dcterms:identifier	"GS_20".
+gs:GS_20	rdf:type	gs:Sample.
+gs:GS_20	gs:glycosample_entry	gs:GS_20_E1.
+gs:GS_20_E1	rdf:type	gs:Sample_Entry.
+gs:GS_20_E1	gs:pmid	"6132915".
+gs:GS_20_E1	dcterms:reference	<http://identifiers.org/pubmed/6132915>.
+<http://identifiers.org/pubmed/6132915>	dcterms:identifier	"6132915".
+<http://identifiers.org/pubmed/6132915>	rdf:type	fabio:JournalArticle .
+gs:GS_20_E1	gs:journal_name	"J Biochem.".
+gs:GS_20_E1	gs:journal_site	"Yamashita K._et_al_Fig.7".
+gs:GS_20_E1	gs:journal_title	"Carbohydrate structures of bovine kidney gamma-glutamyltranspeptidase.".
+gs:GS_20_E1	gs:organism	"bovine".
+gs:GS_20_E1	gs:taxonomy_name	"Bos taurus".
+gs:GS_20_E1	gs:taxonomy_id	"9913".
+gs:GS_20_E1	gs:disease	"not adata".
+gs:GS_20_E1	gs:sample_type	"microsomal fraction of bovine kidney".
+
+gs:Glycosample	gs:has_resource	gs:GS_21.
+gs:GS_21	gs:glycosample_id	"GS_21".
+gs:GS_21	dcterms:identifier	"GS_21".
+gs:GS_21	rdf:type	gs:Sample.
+gs:GS_21	gs:glycosample_entry	gs:GS_21_E1.
+gs:GS_21_E1	rdf:type	gs:Sample_Entry.
+gs:GS_21_E1	gs:pmid	"6830758".
+gs:GS_21_E1	dcterms:reference	<http://identifiers.org/pubmed/6830758>.
+<http://identifiers.org/pubmed/6830758>	dcterms:identifier	"6830758".
+<http://identifiers.org/pubmed/6830758>	rdf:type	fabio:JournalArticle .
+gs:GS_21_E1	gs:journal_name	"Biochemistry.".
+gs:GS_21_E1	gs:journal_site	"Matsumoto A._et_al_Fig.8".
+gs:GS_21_E1	gs:journal_title	"Carbohydrates of influenza virus hemagglutinin: structures of the whole neutral sugar chains.".
+gs:GS_21_E1	gs:organism	"influenza virus".
+gs:GS_21_E1	gs:strain	"X-31 strain of A2/Hong Kong/1968 virus".
+gs:GS_21_E1	gs:isolation_source	"X-31 strain of A2/Hong Kong/1968 virus (influenza virus)".
+gs:GS_21_E1	gs:sample_type	"crystallized BHA".
+
+gs:Glycosample	gs:has_resource	gs:GS_22.
+gs:GS_22	gs:glycosample_id	"GS_22".
+gs:GS_22	dcterms:identifier	"GS_22".
+gs:GS_22	rdf:type	gs:Sample.
+gs:GS_22	gs:glycosample_entry	gs:GS_22_E1.
+gs:GS_22_E1	rdf:type	gs:Sample_Entry.
+gs:GS_22_E1	gs:pmid	"6137277".
+gs:GS_22_E1	dcterms:reference	<http://identifiers.org/pubmed/6137277>.
+<http://identifiers.org/pubmed/6137277>	dcterms:identifier	"6137277".
+<http://identifiers.org/pubmed/6137277>	rdf:type	fabio:JournalArticle .
+gs:GS_22_E1	gs:journal_name	"Cancer Res. ".
+gs:GS_22_E1	gs:journal_site	"Yamashita K._et_al_Chart.4".
+gs:GS_22_E1	gs:journal_title	"Comparative study of the sugar chains of gamma-glutamyltranspeptidases purified from rat liver and rat AH-66 hepatoma cells.".
+gs:GS_22_E1	gs:organism	"rat".
+gs:GS_22_E1	gs:taxonomy_name	"Rattus norvegicus (Rat)".
+gs:GS_22_E1	gs:taxonomy_id	"10116".
+gs:GS_22_E1	gs:grant	"Grant-in-aid for Cancer Research, the Ministry of Education, Science and Culture of Japan, and a reseach grant from Yamanouchi Foundation for Research on Metabolic Disorders.".
+gs:GS_22_E1	gs:sample_type	"rat AH-66 hepatoma cells".
+
+gs:Glycosample	gs:has_resource	gs:GS_23.
+gs:GS_23	gs:glycosample_id	"GS_23".
+gs:GS_23	dcterms:identifier	"GS_23".
+gs:GS_23	rdf:type	gs:Sample.
+gs:GS_23	gs:glycosample_entry	gs:GS_23_E1.
+gs:GS_23_E1	rdf:type	gs:Sample_Entry.
+gs:GS_23_E1	gs:pmid	"6137277".
+gs:GS_23_E1	dcterms:reference	<http://identifiers.org/pubmed/6137277>.
+<http://identifiers.org/pubmed/6137277>	dcterms:identifier	"6137277".
+<http://identifiers.org/pubmed/6137277>	rdf:type	fabio:JournalArticle .
+gs:GS_23_E1	gs:journal_name	"Cancer Res. ".
+gs:GS_23_E1	gs:journal_site	"Yamashita K._et_al_Chart.5".
+gs:GS_23_E1	gs:journal_title	"Comparative study of the sugar chains of gamma-glutamyltranspeptidases purified from rat liver and rat AH-66 hepatoma cells.".
+gs:GS_23_E1	gs:organism	"rat".
+gs:GS_23_E1	gs:taxonomy_name	"Rattus norvegicus (Rat)".
+gs:GS_23_E1	gs:taxonomy_id	"10116".
+gs:GS_23_E1	gs:grant	"Grant-in-aid for Cancer Research, the Ministry of Education, Science and Culture of Japan, and a reseach grant from Yamanouchi Foundation for Research on Metabolic Disorders.".
+gs:GS_23_E1	gs:sample_type	"rat liver".
+
+gs:Glycosample	gs:has_resource	gs:GS_24.
+gs:GS_24	gs:glycosample_id	"GS_24".
+gs:GS_24	dcterms:identifier	"GS_24".
+gs:GS_24	rdf:type	gs:Sample.
+gs:GS_24	gs:glycosample_entry	gs:GS_24_E1.
+gs:GS_24_E1	rdf:type	gs:Sample_Entry.
+gs:GS_24_E1	gs:pmid	"6437339".
+gs:GS_24_E1	dcterms:reference	<http://identifiers.org/pubmed/6437339>.
+<http://identifiers.org/pubmed/6437339>	dcterms:identifier	"6437339".
+<http://identifiers.org/pubmed/6437339>	rdf:type	fabio:JournalArticle .
+gs:GS_24_E1	gs:journal_name	"Arch Biochem Biophys.".
+gs:GS_24_E1	gs:journal_site	"Ohkura T._et_al_Fig.9".
+gs:GS_24_E1	gs:journal_title	"Purification of hamster melanoma tyrosinases and structural studies of their asparagine-linked sugar chains.".
+gs:GS_24_E1	gs:organism	"hamster".
+gs:GS_24_E1	gs:taxonomy_name	"Mesocricetus auratus (Golden hamster)".
+gs:GS_24_E1	gs:taxonomy_id	"10036".
+gs:GS_24_E1	gs:host	"Syrian golden hamsters".
+gs:GS_24_E1	gs:tissue_type	"Greene's hamster melanotic melanoma".
+gs:GS_24_E1	gs:age	"13 weeks old".
+
+gs:Glycosample	gs:has_resource	gs:GS_25.
+gs:GS_25	gs:glycosample_id	"GS_25".
+gs:GS_25	dcterms:identifier	"GS_25".
+gs:GS_25	rdf:type	gs:Sample.
+gs:GS_25	gs:glycosample_entry	gs:GS_25_E1.
+gs:GS_25_E1	rdf:type	gs:Sample_Entry.
+gs:GS_25_E1	gs:pmid	"3930453".
+gs:GS_25_E1	dcterms:reference	<http://identifiers.org/pubmed/3930453>.
+<http://identifiers.org/pubmed/3930453>	dcterms:identifier	"3930453".
+<http://identifiers.org/pubmed/3930453>	rdf:type	fabio:JournalArticle .
+gs:GS_25_E1	gs:journal_name	"Jpn J Cancer Res.".
+gs:GS_25_E1	gs:journal_site	"Mizuochi T_et_al_Fig.4".
+gs:GS_25_E1	gs:journal_title	"Comparison of carbohydrate structure between human chorionic gonadotropin present in urine of patients with trophoblastic diseases and healthy individuals.".
+gs:GS_25_E1	gs:organism	"human".
+gs:GS_25_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_25_E1	gs:taxonomy_id	"9606".
+gs:GS_25_E1	gs:biomaterial_provider	"Kobe University Hospital".
+gs:GS_25_E1	gs:disease	"complete hydatidiform mole".
+gs:GS_25_E1	gs:health_state	"pregnant".
+gs:GS_25_E1	gs:isolation_source	"Three patients (Yam, Ito, and Ama) were referred to Kobe University Hospital".
+gs:GS_25_E1	gs:sample_type	"urine".
+gs:GS_25_E1	gs:sex	"female".
+
+gs:Glycosample	gs:has_resource	gs:GS_26.
+gs:GS_26	gs:glycosample_id	"GS_26".
+gs:GS_26	dcterms:identifier	"GS_26".
+gs:GS_26	rdf:type	gs:Sample.
+gs:GS_26	gs:glycosample_entry	gs:GS_26_E1.
+gs:GS_26_E1	rdf:type	gs:Sample_Entry.
+gs:GS_26	gs:glycosample_entry	gs:GS_26_E2.
+gs:GS_26_E2	rdf:type	gs:Sample_Entry.
+gs:GS_26	gs:glycosample_entry	gs:GS_26_E3.
+gs:GS_26_E3	rdf:type	gs:Sample_Entry.
+gs:GS_26_E1	gs:pmid	"3930453".
+gs:GS_26_E1	dcterms:reference	<http://identifiers.org/pubmed/3930453>.
+<http://identifiers.org/pubmed/3930453>	dcterms:identifier	"3930453".
+<http://identifiers.org/pubmed/3930453>	rdf:type	fabio:JournalArticle .
+gs:GS_26_E2	gs:pmid	"6643471".
+gs:GS_26_E2	dcterms:reference	<http://identifiers.org/pubmed/6643471>.
+<http://identifiers.org/pubmed/6643471>	dcterms:identifier	"6643471".
+<http://identifiers.org/pubmed/6643471>	rdf:type	fabio:JournalArticle .
+gs:GS_26_E3	gs:pmid	"7320438".
+gs:GS_26_E3	dcterms:reference	<http://identifiers.org/pubmed/7320438>.
+<http://identifiers.org/pubmed/7320438>	dcterms:identifier	"7320438".
+<http://identifiers.org/pubmed/7320438>	rdf:type	fabio:JournalArticle .
+gs:GS_26_E1	gs:journal_name	"Jpn J Cancer Res.".
+gs:GS_26_E2	gs:journal_name	"J Biol Chem.".
+gs:GS_26_E3	gs:journal_name	"J Endocrinol Invest.".
+gs:GS_26_E1	gs:journal_site	"Mizuochi T_et_al_Fig.4".
+gs:GS_26_E2	gs:journal_site	"Mizuochi T_et_al_materials and methods".
+gs:GS_26_E3	gs:journal_site	"Nishimura R._et_al_materialsa and methods".
+gs:GS_26_E1	gs:journal_title	"Comparison of carbohydrate structure between human chorionic gonadotropin present in urine of patients with trophoblastic diseases and healthy individuals.".
+gs:GS_26_E2	gs:journal_title	"Structures of the asparagine-linked sugar chains of human chorionic gonadotropin produced in choriocarcinoma. Appearance of triantennary sugar chains and unique biantennary sugar chains.".
+gs:GS_26_E3	gs:journal_title	"The biochemical properties of urinary human chorionic gonadotropin from the patients with trophoblastic disease.".
+gs:GS_26_E1	gs:organism	"human".
+gs:GS_26_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_26_E1	gs:taxonomy_id	"9606".
+gs:GS_26_E1	gs:biomaterial_provider	"Kobe University Hospital".
+gs:GS_26_E2	gs:biomaterial_provider	"see PMID:7320438".
+gs:GS_26_E2	gs:age	"see PMID:7320438".
+gs:GS_26_E1	gs:disease	"gestational choriocarcinoma ".
+gs:GS_26_E2	gs:disease	"see PMID:7320438".
+gs:GS_26_E2	gs:disease_stage	"see PMID:7320438".
+gs:GS_26_E1	gs:health_state	"pregnant".
+gs:GS_26_E2	gs:health_state	"see PMID:7320438".
+gs:GS_26_E1	gs:isolation_source	"Kobe University Hospital".
+gs:GS_26_E2	gs:isolation_source	"see PMID:7320438".
+gs:GS_26_E1	gs:passage_history	"Three patients: 38 years old woman *1, 49 years old woman *2, and 29 years old woman *3".
+gs:GS_26_E2	gs:passage_history	"see PMID:7320438".
+gs:GS_26_E1	gs:sample_type	"urine".
+gs:GS_26_E2	gs:sample_type	"see PMID:7320438".
+gs:GS_26_E1	gs:sex	"female".
+gs:GS_26_E2	gs:sex	"see PMID:7320438".
+
+gs:Glycosample	gs:has_resource	gs:GS_27.
+gs:GS_27	gs:glycosample_id	"GS_27".
+gs:GS_27	dcterms:identifier	"GS_27".
+gs:GS_27	rdf:type	gs:Sample.
+gs:GS_27	gs:glycosample_entry	gs:GS_27_E1.
+gs:GS_27_E1	rdf:type	gs:Sample_Entry.
+gs:GS_27_E1	gs:pmid	"3930453".
+gs:GS_27_E1	dcterms:reference	<http://identifiers.org/pubmed/3930453>.
+<http://identifiers.org/pubmed/3930453>	dcterms:identifier	"3930453".
+<http://identifiers.org/pubmed/3930453>	rdf:type	fabio:JournalArticle .
+gs:GS_27_E1	gs:journal_name	"Jpn J Cancer Res.".
+gs:GS_27_E1	gs:journal_site	"Mizuochi T_et_al_Fig.4".
+gs:GS_27_E1	gs:journal_title	"Comparison of carbohydrate structure between human chorionic gonadotropin present in urine of patients with trophoblastic diseases and healthy individuals.".
+gs:GS_27_E1	gs:organism	"human".
+gs:GS_27_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_27_E1	gs:taxonomy_id	"9606".
+gs:GS_27_E1	gs:disease	"normal".
+gs:GS_27_E1	gs:health_state	"pregnant".
+gs:GS_27_E1	gs:isolation_source	"two different normal pregnant women".
+gs:GS_27_E1	gs:sample_type	"urine".
+gs:GS_27_E1	gs:sex	"female".
+
+gs:Glycosample	gs:has_resource	gs:GS_28.
+gs:GS_28	gs:glycosample_id	"GS_28".
+gs:GS_28	dcterms:identifier	"GS_28".
+gs:GS_28	rdf:type	gs:Sample.
+gs:GS_28	gs:glycosample_entry	gs:GS_28_E1.
+gs:GS_28_E1	rdf:type	gs:Sample_Entry.
+gs:GS_28_E1	gs:pmid	"4074713".
+gs:GS_28_E1	dcterms:reference	<http://identifiers.org/pubmed/4074713>.
+<http://identifiers.org/pubmed/4074713>	dcterms:identifier	"4074713".
+<http://identifiers.org/pubmed/4074713>	rdf:type	fabio:JournalArticle .
+gs:GS_28_E1	gs:journal_name	"Biochemistry. ".
+gs:GS_28_E1	gs:journal_site	"Taniguchi T._et_al_Fig.3".
+gs:GS_28_E1	gs:journal_title	"Structures of the sugar chains of rabbit immunoglobulin G: occurrence of asparagine-linked sugar chains in Fab fragment.".
+gs:GS_28_E1	gs:organism	"rabbit".
+gs:GS_28_E1	gs:taxonomy_name	"Oryctolagus cuniculus (Rabbit)".
+gs:GS_28_E1	gs:taxonomy_id	"9986".
+gs:GS_28_E1	gs:tissue_type	"pooled nonimmune rabbit sera".
+
+gs:Glycosample	gs:has_resource	gs:GS_29.
+gs:GS_29	gs:glycosample_id	"GS_29".
+gs:GS_29	dcterms:identifier	"GS_29".
+gs:GS_29	rdf:type	gs:Sample.
+gs:GS_29	gs:glycosample_entry	gs:GS_29_E1.
+gs:GS_29_E1	rdf:type	gs:Sample_Entry.
+gs:GS_29_E1	gs:pmid	"2411221".
+gs:GS_29_E1	dcterms:reference	<http://identifiers.org/pubmed/2411221>.
+<http://identifiers.org/pubmed/2411221>	dcterms:identifier	"2411221".
+<http://identifiers.org/pubmed/2411221>	rdf:type	fabio:JournalArticle .
+gs:GS_29_E1	gs:journal_name	"Arch Biochem Biophys".
+gs:GS_29_E1	gs:journal_site	"Yamashita K._et_al_Fig.6".
+gs:GS_29_E1	gs:journal_title	"The structures of the carbohydrate moieties of mouse kidney gamma-glutamyltranspeptidase: occurrence of X-antigenic determinants and bisecting N-acetylglucosamine residues.".
+gs:GS_29_E1	gs:organism	"mouse".
+gs:GS_29_E1	gs:taxonomy_name	"Mus musculus (Mouse)".
+gs:GS_29_E1	gs:taxonomy_id	"10090".
+gs:GS_29_E1	gs:sample_type	"mouse kidney".
+
+gs:Glycosample	gs:has_resource	gs:GS_3.
+gs:GS_3	gs:glycosample_id	"GS_3".
+gs:GS_3	dcterms:identifier	"GS_3".
+gs:GS_3	rdf:type	gs:Sample.
+gs:GS_3	gs:glycosample_entry	gs:GS_3_E1.
+gs:GS_3_E1	rdf:type	gs:Sample_Entry.
+gs:GS_3_E1	gs:pmid	"2209620".
+gs:GS_3_E1	dcterms:reference	<http://identifiers.org/pubmed/2209620>.
+<http://identifiers.org/pubmed/2209620>	dcterms:identifier	"2209620".
+<http://identifiers.org/pubmed/2209620>	rdf:type	fabio:JournalArticle .
+gs:GS_3_E1	gs:journal_name	"Eur. J. Biochem.".
+gs:GS_3_E1	gs:journal_site	" Weisshaar G._et_al_Table2".
+gs:GS_3_E1	gs:journal_title	"Site-specific N-glycosylation of ovine lutropin. Structural analysis by one- and two-dimensional 1H-NMR spectroscopy.".
+gs:GS_3_E1	gs:organism	"Ovine".
+gs:GS_3_E1	gs:taxonomy_name	"Ovis aries".
+gs:GS_3_E1	gs:taxonomy_id	"9940".
+gs:GS_3_E1	gs:biomaterial_provider	"National Hormone and Pituitary Program, University of Maryland School of Medicine and the National Institute of Arthritis, Diabetes and Digestive and Kidney Diseases, USA".
+
+gs:Glycosample	gs:has_resource	gs:GS_30.
+gs:GS_30	gs:glycosample_id	"GS_30".
+gs:GS_30	dcterms:identifier	"GS_30".
+gs:GS_30	rdf:type	gs:Sample.
+gs:GS_30	gs:glycosample_entry	gs:GS_30_E1.
+gs:GS_30_E1	rdf:type	gs:Sample_Entry.
+gs:GS_30_E1	gs:pmid	"4019443".
+gs:GS_30_E1	dcterms:reference	<http://identifiers.org/pubmed/4019443>.
+<http://identifiers.org/pubmed/4019443>	dcterms:identifier	"4019443".
+<http://identifiers.org/pubmed/4019443>	rdf:type	fabio:JournalArticle .
+gs:GS_30_E1	gs:journal_name	"J Biochem.".
+gs:GS_30_E1	gs:journal_site	"Tanoguchi T._et_al_Fig.2".
+gs:GS_30_E1	gs:journal_title	"Structural studies on the carbohydrate moieties of rat liver cathepsins B and H.".
+gs:GS_30_E1	gs:organism	"rat".
+gs:GS_30_E1	gs:taxonomy_name	"Rattus norvegicus (Rat)".
+gs:GS_30_E1	gs:taxonomy_id	"10116".
+gs:GS_30_E1	gs:tissue_type	"rat liver".
+gs:GS_30_E1	gs:sample_type	"rat liver".
+
+gs:Glycosample	gs:has_resource	gs:GS_31.
+gs:GS_31	gs:glycosample_id	"GS_31".
+gs:GS_31	dcterms:identifier	"GS_31".
+gs:GS_31	rdf:type	gs:Sample.
+gs:GS_31	gs:glycosample_entry	gs:GS_31_E1.
+gs:GS_31_E1	rdf:type	gs:Sample_Entry.
+gs:GS_31_E1	gs:pmid	"4019443".
+gs:GS_31_E1	dcterms:reference	<http://identifiers.org/pubmed/4019443>.
+<http://identifiers.org/pubmed/4019443>	dcterms:identifier	"4019443".
+<http://identifiers.org/pubmed/4019443>	rdf:type	fabio:JournalArticle .
+gs:GS_31_E1	gs:journal_name	"J Biochem.".
+gs:GS_31_E1	gs:journal_site	"Tanoguchi T._et_al_Fig.2".
+gs:GS_31_E1	gs:journal_title	"Structural studies on the carbohydrate moieties of rat liver cathepsins B and H.".
+gs:GS_31_E1	gs:organism	"rat".
+gs:GS_31_E1	gs:taxonomy_name	"Rattus norvegicus (Rat)".
+gs:GS_31_E1	gs:taxonomy_id	"10116".
+gs:GS_31_E1	gs:tissue_type	"rat liver".
+gs:GS_31_E1	gs:sample_type	"rat liver".
+
+gs:Glycosample	gs:has_resource	gs:GS_32.
+gs:GS_32	gs:glycosample_id	"GS_32".
+gs:GS_32	dcterms:identifier	"GS_32".
+gs:GS_32	rdf:type	gs:Sample.
+gs:GS_32	gs:glycosample_entry	gs:GS_32_E1.
+gs:GS_32_E1	rdf:type	gs:Sample_Entry.
+gs:GS_32	gs:glycosample_entry	gs:GS_32_E2.
+gs:GS_32_E2	rdf:type	gs:Sample_Entry.
+gs:GS_32_E1	gs:pmid	"3944106".
+gs:GS_32_E1	dcterms:reference	<http://identifiers.org/pubmed/3944106>.
+<http://identifiers.org/pubmed/3944106>	dcterms:identifier	"3944106".
+<http://identifiers.org/pubmed/3944106>	rdf:type	fabio:JournalArticle .
+gs:GS_32_E2	gs:pmid	"4038696".
+gs:GS_32_E2	dcterms:reference	<http://identifiers.org/pubmed/4038696>.
+<http://identifiers.org/pubmed/4038696>	dcterms:identifier	"4038696".
+<http://identifiers.org/pubmed/4038696>	rdf:type	fabio:JournalArticle .
+gs:GS_32_E1	gs:journal_name	"J Biol Chem.".
+gs:GS_32_E2	gs:journal_name	"Invest Ophthalmol Vis Sci.".
+gs:GS_32_E1	gs:journal_site	"Tanoguchi T._et al_Fig.4".
+gs:GS_32_E2	gs:journal_site	"Adler and Evans_materials and methods".
+gs:GS_32_E1	gs:journal_title	"The structures of the asparagine-linked sugar chains of bovine interphotoreceptor retinol-binding protein. Occurrence of fucosylated hybrid-type oligosaccharides.".
+gs:GS_32_E2	gs:journal_title	"Some functional characteristics of purified bovine interphotoreceptor retinol-binding protein.".
+gs:GS_32_E1	gs:organism	"bovine".
+gs:GS_32_E2	gs:organism	"bovine".
+gs:GS_32_E1	gs:taxonomy_name	"Bos taurus (Bovine)".
+gs:GS_32_E2	gs:taxonomy_name	"Bos taurus (Bovine)".
+gs:GS_32_E1	gs:taxonomy_id	"9913".
+gs:GS_32_E2	gs:taxonomy_id	"9913".
+gs:GS_32_E2	gs:isolation_source	"local meat packers".
+gs:GS_32_E1	gs:sample_type	"see PMID:4038696".
+gs:GS_32_E2	gs:sample_type	"adult bovine eyes".
+
+gs:Glycosample	gs:has_resource	gs:GS_33.
+gs:GS_33	gs:glycosample_id	"GS_33".
+gs:GS_33	dcterms:identifier	"GS_33".
+gs:GS_33	rdf:type	gs:Sample.
+gs:GS_33	gs:glycosample_entry	gs:GS_33_E1.
+gs:GS_33_E1	rdf:type	gs:Sample_Entry.
+gs:GS_33_E1	gs:pmid	"2870061".
+gs:GS_33_E1	dcterms:reference	<http://identifiers.org/pubmed/2870061>.
+<http://identifiers.org/pubmed/2870061>	dcterms:identifier	"2870061".
+<http://identifiers.org/pubmed/2870061>	rdf:type	fabio:JournalArticle .
+gs:GS_33_E1	gs:journal_name	"J Biochem.".
+gs:GS_33_E1	gs:journal_site	"Yamashita. K_et_al_Fig. 3,4".
+gs:GS_33_E1	gs:journal_title	"Structures of sugar chains of human kidney gamma-glutamyltranspeptidase.".
+gs:GS_33_E1	gs:organism	"human".
+gs:GS_33_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_33_E1	gs:taxonomy_id	"9606".
+gs:GS_33_E1	gs:tissue_type	"human kidneys".
+gs:GS_33_E1	gs:host_body_site	"kidney".
+gs:GS_33_E1	gs:isolation_source	"two individuals at autopsy".
+gs:GS_33_E1	gs:sample_type	"human kidneys".
+
+gs:Glycosample	gs:has_resource	gs:GS_34.
+gs:GS_34	gs:glycosample_id	"GS_34".
+gs:GS_34	dcterms:identifier	"GS_34".
+gs:GS_34	rdf:type	gs:Sample.
+gs:GS_34	gs:glycosample_entry	gs:GS_34_E1.
+gs:GS_34_E1	rdf:type	gs:Sample_Entry.
+gs:GS_34	gs:glycosample_entry	gs:GS_34_E2.
+gs:GS_34_E2	rdf:type	gs:Sample_Entry.
+gs:GS_34_E1	gs:pmid	"3115970".
+gs:GS_34_E1	dcterms:reference	<http://identifiers.org/pubmed/3115970>.
+<http://identifiers.org/pubmed/3115970>	dcterms:identifier	"3115970".
+<http://identifiers.org/pubmed/3115970>	rdf:type	fabio:JournalArticle .
+gs:GS_34_E2	gs:pmid	"6793612".
+gs:GS_34_E2	dcterms:reference	<http://identifiers.org/pubmed/6793612>.
+<http://identifiers.org/pubmed/6793612>	dcterms:identifier	"6793612".
+<http://identifiers.org/pubmed/6793612>	rdf:type	fabio:JournalArticle .
+gs:GS_34_E1	gs:journal_name	"J Biochem. ".
+gs:GS_34_E2	gs:journal_name	"J Clin Endocrinol Metab.".
+gs:GS_34_E1	gs:journal_site	"Renwick AG._et_al_Table2".
+gs:GS_34_E2	gs:journal_site	"Chapman GE._et_al_materials and methods".
+gs:GS_34_E1	gs:journal_title	"The asparagine-linked sugar chains of human follicle-stimulating hormone.".
+gs:GS_34_E2	gs:journal_title	"The isolation of human pituitary hormones from frozen glands.".
+gs:GS_34_E1	gs:organism	"human".
+gs:GS_34_E2	gs:organism	"human".
+gs:GS_34_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_34_E2	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_34_E1	gs:taxonomy_id	"9606".
+gs:GS_34_E2	gs:taxonomy_id	"9606".
+gs:GS_34_E1	gs:grant	"Grants-in-Aid for Scientific Research and for Cancer Research from the Ministry of Education, Science and Culture of Japan; and Grants-in-Aid from the Japanese Foundation for Multidiscriplinary Treatment of Cancer, and from Fujita-Gakuen Health University".
+gs:GS_34_E1	gs:tissue_type	"see PMID:6793612 ".
+gs:GS_34_E2	gs:tissue_type	"human pituitary glands".
+
+gs:Glycosample	gs:has_resource	gs:GS_35.
+gs:GS_35	gs:glycosample_id	"GS_35".
+gs:GS_35	dcterms:identifier	"GS_35".
+gs:GS_35	rdf:type	gs:Sample.
+gs:GS_35	gs:glycosample_entry	gs:GS_35_E1.
+gs:GS_35_E1	rdf:type	gs:Sample_Entry.
+gs:GS_35_E1	gs:pmid	"3571208".
+gs:GS_35_E1	dcterms:reference	<http://identifiers.org/pubmed/3571208>.
+<http://identifiers.org/pubmed/3571208>	dcterms:identifier	"3571208".
+<http://identifiers.org/pubmed/3571208>	rdf:type	fabio:JournalArticle .
+gs:GS_35_E1	gs:journal_name	"J Biochem.".
+gs:GS_35_E1	gs:journal_site	"Hitoi A._et_al_Table2".
+gs:GS_35_E1	gs:journal_title	"The carbohydrate moieties of human urinary ribonuclease UL.".
+gs:GS_35_E1	gs:organism	"human".
+gs:GS_35_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_35_E1	gs:taxonomy_id	"9606".
+gs:GS_35_E1	gs:grant	"Gramts-in-Aid for developmental Scientific Research from the Ministry of Education, Science and Culture of Japan, and a research grant from the Yamada Science Foundation.".
+gs:GS_35_E1	gs:health_state	"healthy".
+gs:GS_35_E1	gs:sample_type	"human urine".
+
+gs:Glycosample	gs:has_resource	gs:GS_36.
+gs:GS_36	gs:glycosample_id	"GS_36".
+gs:GS_36	dcterms:identifier	"GS_36".
+gs:GS_36	rdf:type	gs:Sample.
+gs:GS_36	gs:glycosample_entry	gs:GS_36_E1.
+gs:GS_36_E1	rdf:type	gs:Sample_Entry.
+gs:GS_36	gs:glycosample_entry	gs:GS_36_E2.
+gs:GS_36_E2	rdf:type	gs:Sample_Entry.
+gs:GS_36	gs:glycosample_entry	gs:GS_36_E3.
+gs:GS_36_E3	rdf:type	gs:Sample_Entry.
+gs:GS_36_E1	gs:pmid	"3335536".
+gs:GS_36_E1	dcterms:reference	<http://identifiers.org/pubmed/3335536>.
+<http://identifiers.org/pubmed/3335536>	dcterms:identifier	"3335536".
+<http://identifiers.org/pubmed/3335536>	rdf:type	fabio:JournalArticle .
+gs:GS_36_E2	gs:pmid	"3930453".
+gs:GS_36_E2	dcterms:reference	<http://identifiers.org/pubmed/3930453>.
+<http://identifiers.org/pubmed/3930453>	dcterms:identifier	"3930453".
+<http://identifiers.org/pubmed/3930453>	rdf:type	fabio:JournalArticle .
+gs:GS_36_E3	gs:pmid	"2957051".
+gs:GS_36_E3	dcterms:reference	<http://identifiers.org/pubmed/2957051>.
+<http://identifiers.org/pubmed/2957051>	dcterms:identifier	"2957051".
+<http://identifiers.org/pubmed/2957051>	rdf:type	fabio:JournalArticle .
+gs:GS_36_E1	gs:journal_name	"J Biol Chem.".
+gs:GS_36_E2	gs:journal_name	"Jpn J Cancer Res.".
+gs:GS_36_E3	gs:journal_name	"Cancer Res".
+gs:GS_36_E1	gs:journal_site	"Amano J._et_al_Table4".
+gs:GS_36_E2	gs:journal_site	"Mizuochi T_et_al_Fig.4".
+gs:GS_36_E3	gs:journal_site	"Endo T._et_al_materials methods".
+gs:GS_36_E1	gs:journal_title	"Comparative study of the mucin-type sugar chains of human chorionic gonadotropin present in the urine of patients with trophoblastic diseases and healthy pregnant women.".
+gs:GS_36_E2	gs:journal_title	"Comparison of carbohydrate structure between human chorionic gonadotropin present in urine of patients with trophoblastic diseases and healthy individuals.".
+gs:GS_36_E3	gs:journal_title	"Structural differences found in the asparagine-linked sugar chains of human chorionic gonadotropins purified from the urine of patients with invasive mole and with choriocarcinoma.".
+gs:GS_36_E1	gs:organism	"human".
+gs:GS_36_E2	gs:organism	"human".
+gs:GS_36_E3	gs:organism	"human".
+gs:GS_36_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_36_E2	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_36_E3	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_36_E1	gs:taxonomy_id	"9606".
+gs:GS_36_E2	gs:taxonomy_id	"9606".
+gs:GS_36_E3	gs:taxonomy_id	"9606".
+gs:GS_36_E1	gs:grant	"Grants-in-Aid for Special Project Research (Cancer-Bioscience) from the Ministry of Education, Science and Culture of Japan.".
+gs:GS_36_E2	gs:biomaterial_provider	"Kobe University Hospital".
+gs:GS_36_E3	gs:biomaterial_provider	"Kobe University Hospital".
+gs:GS_36_E1	gs:tissue_type	"pooled urine".
+gs:GS_36_E3	gs:age	"34 years old, 48 years old".
+gs:GS_36_E1	gs:disease	"normal".
+gs:GS_36_E2	gs:disease	"complete hydatidiform mole".
+gs:GS_36_E3	gs:disease	"invasive mole".
+gs:GS_36_E1	gs:health_state	"pregnant".
+gs:GS_36_E2	gs:health_state	"pregnant".
+gs:GS_36_E3	gs:health_state	"pregnant".
+gs:GS_36_E1	gs:isolation_source	"Two normal pregnant women (YNA and YNB)".
+gs:GS_36_E2	gs:isolation_source	"Three patients (Yam, Ito, and Ama) were referred to Kobe University Hospital".
+gs:GS_36_E3	gs:isolation_source	"Two patients (SHI  *3and KAM *4) were referred to Kobe University Hospital".
+gs:GS_36_E2	gs:sample_type	"urine".
+gs:GS_36_E1	gs:sex	"female".
+gs:GS_36_E2	gs:sex	"female".
+
+gs:Glycosample	gs:has_resource	gs:GS_37.
+gs:GS_37	gs:glycosample_id	"GS_37".
+gs:GS_37	dcterms:identifier	"GS_37".
+gs:GS_37	rdf:type	gs:Sample.
+gs:GS_37	gs:glycosample_entry	gs:GS_37_E1.
+gs:GS_37_E1	rdf:type	gs:Sample_Entry.
+gs:GS_37	gs:glycosample_entry	gs:GS_37_E2.
+gs:GS_37_E2	rdf:type	gs:Sample_Entry.
+gs:GS_37	gs:glycosample_entry	gs:GS_37_E3.
+gs:GS_37_E3	rdf:type	gs:Sample_Entry.
+gs:GS_37_E1	gs:pmid	"3335536".
+gs:GS_37_E1	dcterms:reference	<http://identifiers.org/pubmed/3335536>.
+<http://identifiers.org/pubmed/3335536>	dcterms:identifier	"3335536".
+<http://identifiers.org/pubmed/3335536>	rdf:type	fabio:JournalArticle .
+gs:GS_37_E2	gs:pmid	"3930453".
+gs:GS_37_E2	dcterms:reference	<http://identifiers.org/pubmed/3930453>.
+<http://identifiers.org/pubmed/3930453>	dcterms:identifier	"3930453".
+<http://identifiers.org/pubmed/3930453>	rdf:type	fabio:JournalArticle .
+gs:GS_37_E3	gs:pmid	"2957051".
+gs:GS_37_E3	dcterms:reference	<http://identifiers.org/pubmed/2957051>.
+<http://identifiers.org/pubmed/2957051>	dcterms:identifier	"2957051".
+<http://identifiers.org/pubmed/2957051>	rdf:type	fabio:JournalArticle .
+gs:GS_37_E1	gs:journal_name	"J Biol Chem.".
+gs:GS_37_E2	gs:journal_name	"Jpn J Cancer Res.".
+gs:GS_37_E3	gs:journal_name	"Cancer Res".
+gs:GS_37_E1	gs:journal_site	"Amano J._et_al_Table4".
+gs:GS_37_E2	gs:journal_site	"Mizuochi T_et_al_Fig.4".
+gs:GS_37_E3	gs:journal_site	"Endo T._et_al_materials methods".
+gs:GS_37_E1	gs:journal_title	"Comparative study of the mucin-type sugar chains of human chorionic gonadotropin present in the urine of patients with trophoblastic diseases and healthy pregnant women.".
+gs:GS_37_E2	gs:journal_title	"Comparison of carbohydrate structure between human chorionic gonadotropin present in urine of patients with trophoblastic diseases and healthy individuals.".
+gs:GS_37_E3	gs:journal_title	"Structural differences found in the asparagine-linked sugar chains of human chorionic gonadotropins purified from the urine of patients with invasive mole and with choriocarcinoma.".
+gs:GS_37_E1	gs:organism	"human".
+gs:GS_37_E2	gs:organism	"human".
+gs:GS_37_E3	gs:organism	"human".
+gs:GS_37_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_37_E2	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_37_E3	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_37_E1	gs:taxonomy_id	"9606".
+gs:GS_37_E2	gs:taxonomy_id	"9606".
+gs:GS_37_E3	gs:taxonomy_id	"9606".
+gs:GS_37_E1	gs:grant	"Grants-in-Aid for Special Project Research (Cancer-Bioscience) from the Ministry of Education, Science and Culture of Japan.".
+gs:GS_37_E2	gs:biomaterial_provider	"Kobe University Hospital".
+gs:GS_37_E3	gs:biomaterial_provider	"Kobe University Hospital".
+gs:GS_37_E3	gs:age	"34 years old, 48 years old".
+gs:GS_37_E2	gs:disease	"complete hydatidiform mole".
+gs:GS_37_E3	gs:disease	"invasive mole".
+gs:GS_37_E2	gs:health_state	"pregnant".
+gs:GS_37_E3	gs:health_state	"pregnant".
+gs:GS_37_E2	gs:isolation_source	"Three patients (Yam, Ito, and Ama) were referred to Kobe University Hospital".
+gs:GS_37_E3	gs:isolation_source	"Two patients (SHI  *3and KAM *4) were referred to Kobe University Hospital".
+gs:GS_37_E1	gs:sample_type	"see PMID3930453, 2957051".
+gs:GS_37_E2	gs:sample_type	"urine".
+gs:GS_37_E2	gs:sex	"female".
+
+gs:Glycosample	gs:has_resource	gs:GS_38.
+gs:GS_38	gs:glycosample_id	"GS_38".
+gs:GS_38	dcterms:identifier	"GS_38".
+gs:GS_38	rdf:type	gs:Sample.
+gs:GS_38	gs:glycosample_entry	gs:GS_38_E1.
+gs:GS_38_E1	rdf:type	gs:Sample_Entry.
+gs:GS_38	gs:glycosample_entry	gs:GS_38_E2.
+gs:GS_38_E2	rdf:type	gs:Sample_Entry.
+gs:GS_38_E1	gs:pmid	"3182859".
+gs:GS_38_E1	dcterms:reference	<http://identifiers.org/pubmed/3182859>.
+<http://identifiers.org/pubmed/3182859>	dcterms:identifier	"3182859".
+<http://identifiers.org/pubmed/3182859>	rdf:type	fabio:JournalArticle .
+gs:GS_38_E2	gs:pmid	"6715917".
+gs:GS_38_E2	dcterms:reference	<http://identifiers.org/pubmed/6715917>.
+<http://identifiers.org/pubmed/6715917>	dcterms:identifier	"6715917".
+<http://identifiers.org/pubmed/6715917>	rdf:type	fabio:JournalArticle .
+gs:GS_38_E1	gs:journal_name	"J Biol Chem.".
+gs:GS_38_E2	gs:journal_name	"J Interferon Res. ".
+gs:GS_38_E1	gs:journal_site	"Kagawa Y._et_al_Table3".
+gs:GS_38_E2	gs:journal_site	"Utsumi J._et_al_materials and methods".
+gs:GS_38_E1	gs:journal_title	"Comparative study of the asparagine-linked sugar chains of natural human interferon-beta 1 and recombinant human interferon-beta 1 produced by three different mammalian cells.".
+gs:GS_38_E2	gs:journal_title	"Interferon production with multitray culture system on a large scale.".
+gs:GS_38_E1	gs:organism	"Human".
+gs:GS_38_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_38_E1	gs:taxonomy_id	"9606".
+gs:GS_38_E1	gs:grant	"Grant-in-Aid for Scientific Research from the Ministry of Education, Science, and Culture of Japan.".
+gs:GS_38_E1	gs:host	"natural HuIFN-β1 was induced in human diploid fibroblasts by polyI:poly C".
+gs:GS_38_E1	gs:sample_type	"see PMID:6715917".
+gs:GS_38_E2	gs:sample_type	"human fibroblast cells".
+
+gs:Glycosample	gs:has_resource	gs:GS_39.
+gs:GS_39	gs:glycosample_id	"GS_39".
+gs:GS_39	dcterms:identifier	"GS_39".
+gs:GS_39	rdf:type	gs:Sample.
+gs:GS_39	gs:glycosample_entry	gs:GS_39_E1.
+gs:GS_39_E1	rdf:type	gs:Sample_Entry.
+gs:GS_39	gs:glycosample_entry	gs:GS_39_E2.
+gs:GS_39_E2	rdf:type	gs:Sample_Entry.
+gs:GS_39	gs:glycosample_entry	gs:GS_39_E3.
+gs:GS_39_E3	rdf:type	gs:Sample_Entry.
+gs:GS_39_E1	gs:pmid	"3182859".
+gs:GS_39_E1	dcterms:reference	<http://identifiers.org/pubmed/3182859>.
+<http://identifiers.org/pubmed/3182859>	dcterms:identifier	"3182859".
+<http://identifiers.org/pubmed/3182859>	rdf:type	fabio:JournalArticle .
+gs:GS_39_E2	gs:pmid	"758928".
+gs:GS_39_E2	dcterms:reference	<http://identifiers.org/pubmed/758928>.
+<http://identifiers.org/pubmed/758928>	dcterms:identifier	"758928".
+<http://identifiers.org/pubmed/758928>	rdf:type	fabio:JournalArticle .
+gs:GS_39_E3	gs:pmid	"26810".
+gs:GS_39_E3	dcterms:reference	<http://identifiers.org/pubmed/26810>.
+<http://identifiers.org/pubmed/26810>	dcterms:identifier	"26810".
+<http://identifiers.org/pubmed/26810>	rdf:type	fabio:JournalArticle .
+gs:GS_39_E1	gs:journal_name	"J Biol Chem.".
+gs:GS_39_E2	gs:journal_name	"Br J Cancer.".
+gs:GS_39_E3	gs:journal_name	"J Virol. ".
+gs:GS_39_E1	gs:journal_site	"Kagawa Y._et_al_Table3".
+gs:GS_39_E2	gs:journal_site	"Kinjo M._et_al_materials and methods".
+gs:GS_39_E3	gs:journal_site	"Lowy DR._et_al_materials and methods".
+gs:GS_39_E1	gs:journal_title	"Comparative study of the asparagine-linked sugar chains of natural human interferon-beta 1 and recombinant human interferon-beta 1 produced by three different mammalian cells.".
+gs:GS_39_E2	gs:journal_title	"Thromboplastic and fibrinolytic activities of cultured human cancer cell lines.".
+gs:GS_39_E3	gs:journal_title	"Helper-independent transformation by unintegrated Harvey sarcoma virus DNA.".
+gs:GS_39_E1	gs:grant	"Grant-in-Aid for Scientific Research from the Ministry of Education, Science, and Culture of Japan.".
+gs:GS_39_E1	gs:host	"see PMID:758928, 26810".
+gs:GS_39_E2	gs:host	"pMTV (ha, SV, r) vector/human PC8 lung adenocarcinoma cells, ".
+gs:GS_39_E3	gs:host	"pSV2IFNβ/AdDHFR vector/CHO cells, and pSV2IFN(r)β/BPV97 vector/mouse C127 epithelial cells deriverd from brest carcinoma.".
+gs:GS_39_E2	gs:cell_line	"see Table 1 of PMID:758928".
+gs:GS_39_E1	gs:sample_type	"see PMID758928, 26810".
+
+gs:Glycosample	gs:has_resource	gs:GS_4.
+gs:GS_4	gs:glycosample_id	"GS_4".
+gs:GS_4	dcterms:identifier	"GS_4".
+gs:GS_4	rdf:type	gs:Sample.
+gs:GS_4	gs:glycosample_entry	gs:GS_4_E1.
+gs:GS_4_E1	rdf:type	gs:Sample_Entry.
+gs:GS_4	gs:glycosample_entry	gs:GS_4_E2.
+gs:GS_4_E2	rdf:type	gs:Sample_Entry.
+gs:GS_4_E1	gs:pmid	"3219367".
+gs:GS_4_E1	dcterms:reference	<http://identifiers.org/pubmed/3219367>.
+<http://identifiers.org/pubmed/3219367>	dcterms:identifier	"3219367".
+<http://identifiers.org/pubmed/3219367>	rdf:type	fabio:JournalArticle .
+gs:GS_4_E2	gs:pmid	"3838366".
+gs:GS_4_E2	dcterms:reference	<http://identifiers.org/pubmed/3838366>.
+<http://identifiers.org/pubmed/3838366>	dcterms:identifier	"3838366".
+<http://identifiers.org/pubmed/3838366>	rdf:type	fabio:JournalArticle .
+gs:GS_4_E1	gs:journal_name	"Biochemistry".
+gs:GS_4_E2	gs:journal_name	"Nature".
+gs:GS_4_E1	gs:journal_site	"Sasaki H._et_al_Table1".
+gs:GS_4_E2	gs:journal_site	"Jakobs K. et_al_".
+gs:GS_4_E1	gs:journal_title	"Site-specific glycosylation of human recombinant erythropoietin: analysis of glycopeptides or peptides at each glycosylation site by fast atom bombardment mass spectrometry.".
+gs:GS_4_E2	gs:journal_title	"Isolation and characterization of genomic and cDNA clones of human erythropoietin.".
+gs:GS_4_E2	gs:host	"bacteriophage λ43".
+gs:GS_4_E2	gs:recombinant_information	"see PMID:3838366".
+gs:GS_4_E1	gs:cell_line	"Chinese Hamster ovary cells (transfected with an expression vector containing the human erthropietin cDNA)".
+gs:GS_4_E1	gs:sample_type	"human erthropietin cDNA".
+gs:GS_4_E2	gs:sample_type	"human genomic DNA".
+
+gs:Glycosample	gs:has_resource	gs:GS_40.
+gs:GS_40	gs:glycosample_id	"GS_40".
+gs:GS_40	dcterms:identifier	"GS_40".
+gs:GS_40	rdf:type	gs:Sample.
+gs:GS_40	gs:glycosample_entry	gs:GS_40_E1.
+gs:GS_40_E1	rdf:type	gs:Sample_Entry.
+gs:GS_40	gs:glycosample_entry	gs:GS_40_E2.
+gs:GS_40_E2	rdf:type	gs:Sample_Entry.
+gs:GS_40	gs:glycosample_entry	gs:GS_40_E3.
+gs:GS_40_E3	rdf:type	gs:Sample_Entry.
+gs:GS_40_E1	gs:pmid	"2529489".
+gs:GS_40_E1	dcterms:reference	<http://identifiers.org/pubmed/2529489>.
+<http://identifiers.org/pubmed/2529489>	dcterms:identifier	"2529489".
+<http://identifiers.org/pubmed/2529489>	rdf:type	fabio:JournalArticle .
+gs:GS_40_E2	gs:pmid	"4340161".
+gs:GS_40_E2	dcterms:reference	<http://identifiers.org/pubmed/4340161>.
+<http://identifiers.org/pubmed/4340161>	dcterms:identifier	"4340161".
+<http://identifiers.org/pubmed/4340161>	rdf:type	fabio:JournalArticle .
+gs:GS_40_E3	gs:pmid	"175288".
+gs:GS_40_E3	dcterms:reference	<http://identifiers.org/pubmed/175288>.
+<http://identifiers.org/pubmed/175288>	dcterms:identifier	"175288".
+<http://identifiers.org/pubmed/175288>	rdf:type	fabio:JournalArticle .
+gs:GS_40_E1	gs:journal_name	"Pigment Cell Res.".
+gs:GS_40_E2	gs:journal_name	"Proc Natl Acad Sci U S A.".
+gs:GS_40_E3	gs:journal_name	"Nature".
+gs:GS_40_E1	gs:journal_site	"Kobata A._Fig3".
+gs:GS_40_E2	gs:journal_site	"Warren L._et_al materials and methods".
+gs:GS_40_E3	gs:journal_site	"Ogata SI._et_al".
+gs:GS_40_E1	gs:journal_title	"Altered glycosylation of surface glycoproteins in tumor cells and its clinical application.".
+gs:GS_40_E2	gs:journal_title	"Surface glycoproteins of normal and transformed cells: a difference determined by sialic acid and a growth-dependent sialyl transferase.".
+gs:GS_40_E3	gs:journal_title	"New structural characteristic of the large glycopeptides from transformed cells.".
+gs:GS_40_E1	gs:organism	"hamster".
+gs:GS_40_E2	gs:organism	"hamster".
+gs:GS_40_E3	gs:organism	"hamster".
+gs:GS_40_E1	gs:taxonomy_name	"Cricetinae (hamsters)".
+gs:GS_40_E2	gs:taxonomy_name	"Cricetinae (hamsters)".
+gs:GS_40_E3	gs:taxonomy_name	"Cricetinae (hamsters)".
+gs:GS_40_E1	gs:taxonomy_id	"10026".
+gs:GS_40_E2	gs:taxonomy_id	"10026".
+gs:GS_40_E3	gs:taxonomy_id	"10026".
+gs:GS_40_E2	gs:bioproject_id	"Surface glycoproteins of normal and transformed cells: a difference determined by sialic acid and a growth-dependent sialyl transferase.".
+gs:GS_40_E1	gs:grant	"Grants-in-Aids Special Project Research (Cancer-Bioscience) from the Ministry of Education, Science and Culture of Japan.".
+gs:GS_40_E1	gs:cell_line	"Py-BHK cells derived from BHK cells transformed by polyoma virus".
+gs:GS_40_E2	gs:cell_line	"processing of BHK21-C13 cells, those transformed with the Bryan strain of Rous sarcoma virus (C13-B4), and those transformed by polyoma virus (Py Y).".
+gs:GS_40_E3	gs:cell_line	"cells transformed by a temperature-sensitive (ts) mutant of Rous sacoma virus".
+gs:GS_40_E3	gs:culture_collection	"not dtata".
+gs:GS_40_E1	gs:isolation_source	"baby hamster kidney cells, see PMID:4340161, 175288".
+gs:GS_40_E2	gs:isolation_source	"baby hamster kidney cells ".
+gs:GS_40_E3	gs:isolation_source	"surface of normal and transformed cells".
+
+gs:Glycosample	gs:has_resource	gs:GS_41.
+gs:GS_41	gs:glycosample_id	"GS_41".
+gs:GS_41	dcterms:identifier	"GS_41".
+gs:GS_41	rdf:type	gs:Sample.
+gs:GS_41	gs:glycosample_entry	gs:GS_41_E1.
+gs:GS_41_E1	rdf:type	gs:Sample_Entry.
+gs:GS_41_E1	gs:pmid	"2536709".
+gs:GS_41_E1	dcterms:reference	<http://identifiers.org/pubmed/2536709>.
+<http://identifiers.org/pubmed/2536709>	dcterms:identifier	"2536709".
+<http://identifiers.org/pubmed/2536709>	rdf:type	fabio:JournalArticle .
+gs:GS_41_E1	gs:journal_name	"J Biol Chem. ".
+gs:GS_41_E1	gs:journal_site	"Yamashita K._et_al_Table4".
+gs:GS_41_E1	gs:journal_title	"Altered glycosylation of serum transferrin of patients with hepatocellular carcinoma.".
+gs:GS_41_E1	gs:organism	"human".
+gs:GS_41_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_41_E1	gs:taxonomy_id	"9606".
+gs:GS_41_E1	gs:grant	"Grants-in-aid for spacial project research (Cancer-Bioscience) from Ministry of Education, Science and Culture of Japan.".
+gs:GS_41_E1	gs:health_state	"healthy".
+gs:GS_41_E1	gs:isolation_source	"2 healthy individuals (ET and KA)".
+gs:GS_41_E1	gs:sample_type	"serum".
+gs:GS_41_E1	gs:sex	"male".
+
+gs:Glycosample	gs:has_resource	gs:GS_42.
+gs:GS_42	gs:glycosample_id	"GS_42".
+gs:GS_42	dcterms:identifier	"GS_42".
+gs:GS_42	rdf:type	gs:Sample.
+gs:GS_42	gs:glycosample_entry	gs:GS_42_E1.
+gs:GS_42_E1	rdf:type	gs:Sample_Entry.
+gs:GS_42_E1	gs:pmid	"2536709".
+gs:GS_42_E1	dcterms:reference	<http://identifiers.org/pubmed/2536709>.
+<http://identifiers.org/pubmed/2536709>	dcterms:identifier	"2536709".
+<http://identifiers.org/pubmed/2536709>	rdf:type	fabio:JournalArticle .
+gs:GS_42_E1	gs:journal_name	"J Biol Chem. ".
+gs:GS_42_E1	gs:journal_site	"Yamashita K._et_al_Table4".
+gs:GS_42_E1	gs:journal_title	"Altered glycosylation of serum transferrin of patients with hepatocellular carcinoma.".
+gs:GS_42_E1	gs:organism	"human".
+gs:GS_42_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_42_E1	gs:taxonomy_id	"9606".
+gs:GS_42_E1	gs:grant	"Grants-in-aid for spacial project research (Cancer-Bioscience) from Ministry of Education, Science and Culture of Japan.".
+gs:GS_42_E1	gs:age	"62, 68, 65, and 53 years old".
+gs:GS_42_E1	gs:disease	"hepatocellular carcinoma with liver cirrhosis".
+gs:GS_42_E1	gs:isolation_source	"4 patients, (HT *2:62, NA *2:68, OY *1, *2:65, HH *1, *2:53)".
+gs:GS_42_E1	gs:sample_type	"serum".
+gs:GS_42_E1	gs:sex	"male".
+
+gs:Glycosample	gs:has_resource	gs:GS_43.
+gs:GS_43	gs:glycosample_id	"GS_43".
+gs:GS_43	dcterms:identifier	"GS_43".
+gs:GS_43	rdf:type	gs:Sample.
+gs:GS_43	gs:glycosample_entry	gs:GS_43_E1.
+gs:GS_43_E1	rdf:type	gs:Sample_Entry.
+gs:GS_43_E1	gs:pmid	"2808357".
+gs:GS_43_E1	dcterms:reference	<http://identifiers.org/pubmed/2808357>.
+<http://identifiers.org/pubmed/2808357>	dcterms:identifier	"2808357".
+<http://identifiers.org/pubmed/2808357>	rdf:type	fabio:JournalArticle .
+gs:GS_43_E1	gs:journal_name	"J Biol Chem. ".
+gs:GS_43_E1	gs:journal_site	"Yamashita K._et_al_Table3".
+gs:GS_43_E1	gs:journal_title	"Carbohydrate structures of nonspecific cross-reacting antigen-2, a glycoprotein purified from meconium as an antigen cross-reacting with anticarcinoembryonic antigen antibody. Occurrence of complex-type sugar chains with the Gal beta 1----3GlcNAc beta 1----3Gal beta 1----4GlcNAc beta 1----outer chains.".
+gs:GS_43_E1	gs:organism	"human".
+gs:GS_43_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_43_E1	gs:taxonomy_id	"9606".
+gs:GS_43_E1	gs:grant	"Grants-in-aid for scientific research on priority areas (cancer-bioscience) and for cancer research from Ministry of Education, Science, and Culture of Japan.".
+gs:GS_43_E1	gs:age	"0 years old".
+gs:GS_43_E1	gs:isolation_source	"more than 20 neonates of various blood types".
+gs:GS_43_E1	gs:sample_type	"meconium".
+
+gs:Glycosample	gs:has_resource	gs:GS_44.
+gs:GS_44	gs:glycosample_id	"GS_44".
+gs:GS_44	dcterms:identifier	"GS_44".
+gs:GS_44	rdf:type	gs:Sample.
+gs:GS_44	gs:glycosample_entry	gs:GS_44_E1.
+gs:GS_44_E1	rdf:type	gs:Sample_Entry.
+gs:GS_44	gs:glycosample_entry	gs:GS_44_E2.
+gs:GS_44_E2	rdf:type	gs:Sample_Entry.
+gs:GS_44_E1	gs:pmid	"1998670".
+gs:GS_44_E1	dcterms:reference	<http://identifiers.org/pubmed/1998670>.
+<http://identifiers.org/pubmed/1998670>	dcterms:identifier	"1998670".
+<http://identifiers.org/pubmed/1998670>	rdf:type	fabio:JournalArticle .
+gs:GS_44_E2	gs:pmid	"7352990".
+gs:GS_44_E2	dcterms:reference	<http://identifiers.org/pubmed/7352990>.
+<http://identifiers.org/pubmed/7352990>	dcterms:identifier	"7352990".
+<http://identifiers.org/pubmed/7352990>	rdf:type	fabio:JournalArticle .
+gs:GS_44_E1	gs:journal_name	"Biochemistry.".
+gs:GS_44_E2	gs:journal_name	"Biochemistry. ".
+gs:GS_44_E1	gs:journal_site	"Mori E._et_al_Table2".
+gs:GS_44_E2	gs:journal_site	"Dunbar BS._et_al_materials and methods".
+gs:GS_44_E1	gs:journal_title	"Neutral oligosaccharide structures linked to asparagines of porcine zona pellucida glycoproteins.".
+gs:GS_44_E2	gs:journal_title	"Isolation, physicochemical properties, and macromolecular composition of zona pellucida from porcine oocytes.".
+gs:GS_44_E1	gs:organism	"pig".
+gs:GS_44_E2	gs:organism	"pig".
+gs:GS_44_E1	gs:taxonomy_name	"Sus scrofa (Pig)".
+gs:GS_44_E2	gs:taxonomy_name	"Sus scrofa (Pig)".
+gs:GS_44_E1	gs:taxonomy_id	"9823".
+gs:GS_44_E2	gs:taxonomy_id	"9823".
+gs:GS_44_E2	gs:lab_host	"market".
+gs:GS_44_E1	gs:sample_type	"porcine ovaries, see PMID7352990".
+gs:GS_44_E2	gs:sample_type	"freshly slaughtered gilts".
+
+gs:Glycosample	gs:has_resource	gs:GS_45.
+gs:GS_45	gs:glycosample_id	"GS_45".
+gs:GS_45	dcterms:identifier	"GS_45".
+gs:GS_45	rdf:type	gs:Sample.
+gs:GS_45	gs:glycosample_entry	gs:GS_45_E1.
+gs:GS_45_E1	rdf:type	gs:Sample_Entry.
+gs:GS_45_E1	gs:pmid	"1680000".
+gs:GS_45_E1	dcterms:reference	<http://identifiers.org/pubmed/1680000>.
+<http://identifiers.org/pubmed/1680000>	dcterms:identifier	"1680000".
+<http://identifiers.org/pubmed/1680000>	rdf:type	fabio:JournalArticle .
+gs:GS_45_E1	gs:journal_name	"Biochemistry. ".
+gs:GS_45_E1	gs:journal_site	"Takasaki S._et_al _Table2".
+gs:GS_45_E1	gs:journal_title	"N-linked neutral sugar chains of aminopeptidase N purified from rat small intestinal brush-border membrane.".
+gs:GS_45_E1	gs:organism	"rat".
+gs:GS_45_E1	gs:taxonomy_name	"Rattus norvegicus (Rat)".
+gs:GS_45_E1	gs:taxonomy_id	"10116".
+gs:GS_45_E1	gs:grant	"Grant-in-Aid for Scientific Research from the Ministry of Education, Science, and Culture of Japan. by Grant AM17938 from the National Institute of Health, and by the Veterns Administration Medical Research Service.".
+
+gs:Glycosample	gs:has_resource	gs:GS_46.
+gs:GS_46	gs:glycosample_id	"GS_46".
+gs:GS_46	dcterms:identifier	"GS_46".
+gs:GS_46	rdf:type	gs:Sample.
+gs:GS_46	gs:glycosample_entry	gs:GS_46_E1.
+gs:GS_46_E1	rdf:type	gs:Sample_Entry.
+gs:GS_46	gs:glycosample_entry	gs:GS_46_E2.
+gs:GS_46_E2	rdf:type	gs:Sample_Entry.
+gs:GS_46_E1	gs:pmid	"7682847".
+gs:GS_46_E1	dcterms:reference	<http://identifiers.org/pubmed/7682847>.
+<http://identifiers.org/pubmed/7682847>	dcterms:identifier	"7682847".
+<http://identifiers.org/pubmed/7682847>	rdf:type	fabio:JournalArticle .
+gs:GS_46_E2	gs:pmid	"1699598".
+gs:GS_46_E2	dcterms:reference	<http://identifiers.org/pubmed/1699598>.
+<http://identifiers.org/pubmed/1699598>	dcterms:identifier	"1699598".
+<http://identifiers.org/pubmed/1699598>	rdf:type	fabio:JournalArticle .
+gs:GS_46_E1	gs:journal_name	"Biochemistry.".
+gs:GS_46_E2	gs:journal_name	"Biochemistry. ".
+gs:GS_46_E1	gs:journal_site	"Nakata N._et_al_Table4".
+gs:GS_46_E2	gs:journal_site	"Greenwalt DE._et_al_materials nd methods".
+gs:GS_46_E1	gs:journal_title	"Structural study of the sugar chains of CD36 purified from bovine mammary epithelial cells: occurrence of novel hybrid-type sugar chains containing the Neu5Ac alpha 2-->6GalNAc beta 1-->4GlcNAc and the Man alpha 1-->2Man alpha 1-->3Man alpha 1-->6Man groups.".
+gs:GS_46_E2	gs:journal_title	"PAS IV, an integral membrane protein of mammary epithelial cells, is related to platelet and endothelial cell CD36 (GP IV).".
+gs:GS_46_E1	gs:organism	"bovine".
+gs:GS_46_E2	gs:organism	"bovine".
+gs:GS_46_E1	gs:taxonomy_name	"Bos taurus (Bovine)".
+gs:GS_46_E2	gs:taxonomy_name	"Bos taurus (Bovine)".
+gs:GS_46_E1	gs:taxonomy_id	"9913".
+gs:GS_46_E2	gs:taxonomy_id	"9913".
+gs:GS_46_E1	gs:sample_type	"see PMID1699598".
+gs:GS_46_E2	gs:sample_type	"diluting fresh unwashed cream".
+gs:GS_46_E2	gs:sex	"female".
+
+gs:Glycosample	gs:has_resource	gs:GS_47.
+gs:GS_47	gs:glycosample_id	"GS_47".
+gs:GS_47	dcterms:identifier	"GS_47".
+gs:GS_47	rdf:type	gs:Sample.
+gs:GS_47	gs:glycosample_entry	gs:GS_47_E1.
+gs:GS_47_E1	rdf:type	gs:Sample_Entry.
+gs:GS_47_E1	gs:pmid	"7514386".
+gs:GS_47_E1	dcterms:reference	<http://identifiers.org/pubmed/7514386>.
+<http://identifiers.org/pubmed/7514386>	dcterms:identifier	"7514386".
+<http://identifiers.org/pubmed/7514386>	rdf:type	fabio:JournalArticle .
+gs:GS_47_E1	gs:journal_name	"Arch Biochem Biophys.".
+gs:GS_47_E1	gs:journal_site	"Nakano Y._et_al_Fig4,7".
+gs:GS_47_E1	gs:journal_title	"Structural study on the glycosyl-phosphatidylinositol anchor and the asparagine-linked sugar chain of a soluble form of CD59 in human urine.".
+gs:GS_47_E1	gs:organism	"human".
+gs:GS_47_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_47_E1	gs:taxonomy_id	"9606".
+gs:GS_47_E1	gs:sample_type	"pooled urine".
+
+gs:Glycosample	gs:has_resource	gs:GS_48.
+gs:GS_48	gs:glycosample_id	"GS_48".
+gs:GS_48	dcterms:identifier	"GS_48".
+gs:GS_48	rdf:type	gs:Sample.
+gs:GS_48	gs:glycosample_entry	gs:GS_48_E1.
+gs:GS_48_E1	rdf:type	gs:Sample_Entry.
+gs:GS_48_E1	gs:pmid	"9492296".
+gs:GS_48_E1	dcterms:reference	<http://identifiers.org/pubmed/9492296>.
+<http://identifiers.org/pubmed/9492296>	dcterms:identifier	"9492296".
+<http://identifiers.org/pubmed/9492296>	rdf:type	fabio:JournalArticle .
+gs:GS_48_E1	gs:journal_name	"Eur J Biochem. ".
+gs:GS_48_E1	gs:journal_site	"Furukawa K._et_al_Table2".
+gs:GS_48_E1	gs:journal_title	"Structural study of the O-linked sugar chains of human leukocyte tyrosine phosphatase CD45.".
+gs:GS_48_E1	gs:organism	"human".
+gs:GS_48_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_48_E1	gs:taxonomy_id	"9606".
+gs:GS_48_E1	gs:grant	"Grants-in-Aid for Scientific Research (06680578) and that for Priority Areas (09240104) from The Ministry of Education, Science, Sports, and Culture of Japan, and by research grants from the Academy of Finland, the Finnish Cancer Society, the Sigrid Juselius Foundation and the Emil Aaltnen Foundation.".
+gs:GS_48_E1	gs:isolation_source	"The Finnish Red Cross Blood Transfusion Service, Helsinki.".
+gs:GS_48_E1	gs:sample_type	"packed human buffy coat cells from pooled human blood, which are enriched in Tcells. ".
+
+gs:Glycosample	gs:has_resource	gs:GS_49.
+gs:GS_49	gs:glycosample_id	"GS_49".
+gs:GS_49	dcterms:identifier	"GS_49".
+gs:GS_49	rdf:type	gs:Sample.
+gs:GS_49	gs:glycosample_entry	gs:GS_49_E1.
+gs:GS_49_E1	rdf:type	gs:Sample_Entry.
+gs:GS_49	gs:glycosample_entry	gs:GS_49_E2.
+gs:GS_49_E2	rdf:type	gs:Sample_Entry.
+gs:GS_49	gs:glycosample_entry	gs:GS_49_E3.
+gs:GS_49_E3	rdf:type	gs:Sample_Entry.
+gs:GS_49	gs:glycosample_entry	gs:GS_49_E4.
+gs:GS_49_E4	rdf:type	gs:Sample_Entry.
+gs:GS_49_E1	gs:pmid	"9613818".
+gs:GS_49_E1	dcterms:reference	<http://identifiers.org/pubmed/9613818>.
+<http://identifiers.org/pubmed/9613818>	dcterms:identifier	"9613818".
+<http://identifiers.org/pubmed/9613818>	rdf:type	fabio:JournalArticle .
+gs:GS_49_E2	gs:pmid	"3930453".
+gs:GS_49_E2	dcterms:reference	<http://identifiers.org/pubmed/3930453>.
+<http://identifiers.org/pubmed/3930453>	dcterms:identifier	"3930453".
+<http://identifiers.org/pubmed/3930453>	rdf:type	fabio:JournalArticle .
+gs:GS_49_E3	gs:pmid	"6643471".
+gs:GS_49_E3	dcterms:reference	<http://identifiers.org/pubmed/6643471>.
+<http://identifiers.org/pubmed/6643471>	dcterms:identifier	"6643471".
+<http://identifiers.org/pubmed/6643471>	rdf:type	fabio:JournalArticle .
+gs:GS_49_E4	gs:pmid	"7320438".
+gs:GS_49_E4	dcterms:reference	<http://identifiers.org/pubmed/7320438>.
+<http://identifiers.org/pubmed/7320438>	dcterms:identifier	"7320438".
+<http://identifiers.org/pubmed/7320438>	rdf:type	fabio:JournalArticle .
+gs:GS_49_E1	gs:journal_name	"Glycoconj J.".
+gs:GS_49_E2	gs:journal_name	"Jpn J Cancer Res.".
+gs:GS_49_E3	gs:journal_name	"J Biol Chem.".
+gs:GS_49_E4	gs:journal_name	"J Endocrinol Invest.".
+gs:GS_49_E1	gs:journal_site	"Kobata A._Table1".
+gs:GS_49_E2	gs:journal_site	"Mizuochi T_et_al_Fig.4".
+gs:GS_49_E3	gs:journal_site	"Mizuochi T_et_al_materials and methods".
+gs:GS_49_E4	gs:journal_site	"Nishimura R._et_al_materialsa and methods".
+gs:GS_49_E1	gs:journal_title	"A retrospective and prospective view of glycopathology.".
+gs:GS_49_E2	gs:journal_title	"Comparison of carbohydrate structure between human chorionic gonadotropin present in urine of patients with trophoblastic diseases and healthy individuals.".
+gs:GS_49_E3	gs:journal_title	"Structures of the asparagine-linked sugar chains of human chorionic gonadotropin produced in choriocarcinoma. Appearance of triantennary sugar chains and unique biantennary sugar chains.".
+gs:GS_49_E4	gs:journal_title	"The biochemical properties of urinary human chorionic gonadotropin from the patients with trophoblastic disease.".
+gs:GS_49_E1	gs:organism	"human".
+gs:GS_49_E2	gs:organism	"human".
+gs:GS_49_E3	gs:organism	"human".
+gs:GS_49_E4	gs:organism	"human".
+gs:GS_49_E1	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_49_E2	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_49_E3	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_49_E4	gs:taxonomy_name	"Homo sapiens (Human)".
+gs:GS_49_E1	gs:taxonomy_id	"9606".
+gs:GS_49_E2	gs:taxonomy_id	"9606".
+gs:GS_49_E3	gs:taxonomy_id	"9606".
+gs:GS_49_E4	gs:taxonomy_id	"9606".
+gs:GS_49_E4	gs:grant	"the Ministry of Education of Japan. n.548285. and n. 567284. and from the ministry of Health and Welfare of Japan".
+gs:GS_49_E2	gs:biomaterial_provider	"Kobe University Hospital".
+gs:GS_49_E2	gs:age	"38, 49, 29 years old".
+gs:GS_49_E4	gs:age	"23, 37 years old".
+gs:GS_49_E2	gs:disease	"gestational choriocarcinoma ".
+gs:GS_49_E4	gs:disease	"trophoblastic disease".
+gs:GS_49_E1	gs:health_state	"pregnant".
+gs:GS_49_E2	gs:health_state	"pregnant".
+gs:GS_49_E3	gs:health_state	"pregnant".
+gs:GS_49_E4	gs:health_state	"pregnant".
+gs:GS_49_E2	gs:isolation_source	"Kobe University Hospital: Three patients: 38 years old woman *1, 49 years old woman *2, and 29 years old woman *3".
+gs:GS_49_E4	gs:isolation_source	"a normal pregnat woman (10weeks gestation, primipara) and 2 patients with trophoblastic disease".
+gs:GS_49_E4	gs:passage_history	"2 patients: A 23 years old woman, gravida O, para O, was diagnosis as a normal pregnance.  A 37 year old woman, gravida 3 para2, was admitted to our department with genital bleeding in June, 1979.".
+gs:GS_49_E1	gs:sample_type	"urine".
+gs:GS_49_E2	gs:sample_type	"urine".
+gs:GS_49_E3	gs:sample_type	"see PMID:7320438".
+gs:GS_49_E4	gs:sample_type	"urine".
+gs:GS_49_E1	gs:sex	"female".
+gs:GS_49_E2	gs:sex	"female".
+gs:GS_49_E3	gs:sex	"female".
+gs:GS_49_E4	gs:sex	"female".
+
+gs:Glycosample	gs:has_resource	gs:GS_5.
+gs:GS_5	gs:glycosample_id	"GS_5".
+gs:GS_5	dcterms:identifier	"GS_5".
+gs:GS_5	rdf:type	gs:Sample.
+gs:GS_5	gs:glycosample_entry	gs:GS_5_E1.
+gs:GS_5_E1	rdf:type	gs:Sample_Entry.
+gs:GS_5	gs:glycosample_entry	gs:GS_5_E2.
+gs:GS_5_E2	rdf:type	gs:Sample_Entry.
+gs:GS_5_E1	gs:pmid	"1457969".
+gs:GS_5_E1	dcterms:reference	<http://identifiers.org/pubmed/1457969>.
+<http://identifiers.org/pubmed/1457969>	dcterms:identifier	"1457969".
+<http://identifiers.org/pubmed/1457969>	rdf:type	fabio:JournalArticle .
+gs:GS_5_E2	gs:pmid	"2373987".
+gs:GS_5_E2	dcterms:reference	<http://identifiers.org/pubmed/2373987>.
+<http://identifiers.org/pubmed/2373987>	dcterms:identifier	"2373987".
+<http://identifiers.org/pubmed/2373987>	rdf:type	fabio:JournalArticle .
+gs:GS_5_E1	gs:journal_name	"Glycobiology".
+gs:GS_5_E2	gs:journal_name	"J. Endocrinol.".
+gs:GS_5_E1	gs:journal_site	"Hiyama J._et_al_Table2".
+gs:GS_5_E2	gs:journal_site	"Hiyama J._et_al_Materials and Methods".
+gs:GS_5_E1	gs:journal_title	"The asparagine-linked oligosaccharides at individual glycosylation sites in human thyrotrophin.".
+gs:GS_5_E2	gs:journal_title	"Purification of human pituitary LH and thyrotrophin by hydrophobic chromatography.".
+gs:GS_5_E1	gs:organism	"Human".
+gs:GS_5_E2	gs:organism	"Human".
+gs:GS_5_E1	gs:taxonomy_name	"Homo sapiens".
+gs:GS_5_E2	gs:taxonomy_name	"Homo sapiens".
+gs:GS_5_E1	gs:taxonomy_id	"9606".
+gs:GS_5_E2	gs:taxonomy_id	"9606".
+gs:GS_5_E2	gs:biomaterial_provider	"national pituitary collection programme (sponsored by the Department of Health and the Medical Research Council of New Zwaland)".
+
+gs:Glycosample	gs:has_resource	gs:GS_50.
+gs:GS_50	gs:glycosample_id	"GS_50".
+gs:GS_50	dcterms:identifier	"GS_50".
+gs:GS_50	rdf:type	gs:Sample.
+gs:GS_50	gs:glycosample_entry	gs:GS_50_E1.
+gs:GS_50_E1	rdf:type	gs:Sample_Entry.
+gs:GS_50	gs:glycosample_entry	gs:GS_50_E2.
+gs:GS_50_E2	rdf:type	gs:Sample_Entry.
+gs:GS_50_E1	gs:pmid	"9613818".
+gs:GS_50_E1	dcterms:reference	<http://identifiers.org/pubmed/9613818>.
+<http://identifiers.org/pubmed/9613818>	dcterms:identifier	"9613818".
+<http://identifiers.org/pubmed/9613818>	rdf:type	fabio:JournalArticle .
+gs:GS_50_E2	gs:pmid	"6088518".
+gs:GS_50_E2	dcterms:reference	<http://identifiers.org/pubmed/6088518>.
+<http://identifiers.org/pubmed/6088518>	dcterms:identifier	"6088518".
+<http://identifiers.org/pubmed/6088518>	rdf:type	fabio:JournalArticle .
+gs:GS_50_E1	gs:journal_name	"Glycoconj J.".
+gs:GS_50_E2	gs:journal_name	"J Biol Chem.".
+gs:GS_50_E1	gs:journal_site	"Kobata A._Table2".
+gs:GS_50_E2	gs:journal_site	"Yamashikta L._et_al_materials and methods".
+gs:GS_50_E1	gs:journal_title	"A retrospective and prospective view of glycopathology.".
+gs:GS_50_E2	gs:journal_title	"Comparative study of the oligosaccharides released from baby hamster kidney cells and their polyoma transformant by hydrazinolysis.".
+gs:GS_50_E1	gs:organism	"hamster".
+gs:GS_50_E2	gs:organism	"hamster".
+gs:GS_50_E1	gs:taxonomy_name	"Cricetinae (hamsters)".
+gs:GS_50_E2	gs:taxonomy_name	"Cricetinae (hamsters)".
+gs:GS_50_E1	gs:taxonomy_id	"10026".
+gs:GS_50_E2	gs:taxonomy_id	"10026".
+gs:GS_50_E1	gs:sample_type	"see PMID:6088518".
+gs:GS_50_E2	gs:sample_type	"baby hamster kidney (BHK) cells and their polyoma transformant (py-BHK)".
+
+gs:Glycosample	gs:has_resource	gs:GS_51.
+gs:GS_51	gs:glycosample_id	"GS_51".
+gs:GS_51	dcterms:identifier	"GS_51".
+gs:GS_51	rdf:type	gs:Sample.
+gs:GS_51	gs:glycosample_entry	gs:GS_51_E1.
+gs:GS_51_E1	rdf:type	gs:Sample_Entry.
+gs:GS_51_E1	gs:pmid	"7775382".
+gs:GS_51_E1	dcterms:reference	<http://identifiers.org/pubmed/7775382>.
+<http://identifiers.org/pubmed/7775382>	dcterms:identifier	"7775382".
+<http://identifiers.org/pubmed/7775382>	rdf:type	fabio:JournalArticle .
+gs:GS_51_E1	gs:journal_name	"J Biochem.".
+gs:GS_51_E1	gs:journal_site	"Sato T._et_al_Table3".
+gs:GS_51_E1	gs:journal_title	"Site-specific glycosylation of bovine butyrophilin.".
+gs:GS_51_E1	gs:organism	"bovine".
+gs:GS_51_E1	gs:taxonomy_name	"Bos taurus (Bovine)".
+gs:GS_51_E1	gs:taxonomy_id	"9913".
+gs:GS_51_E1	gs:grant	"Grant-in-Aid for Scientific Research on Priority Areas (No. 05274106) from the Ministry of Education, Science and Culture of Japan and PHS Grant CA56589 (DG).".
+
+gs:Glycosample	gs:has_resource	gs:GS_52.
+gs:GS_52	gs:glycosample_id	"GS_52".
+gs:GS_52	dcterms:identifier	"GS_52".
+gs:GS_52	rdf:type	gs:Sample.
+gs:GS_52	gs:glycosample_entry	gs:GS_52_E1.
+gs:GS_52_E1	rdf:type	gs:Sample_Entry.
+gs:GS_52_E1	gs:pmid	"6478460".
+gs:GS_52_E1	dcterms:reference	<http://identifiers.org/pubmed/6478460>.
+<http://identifiers.org/pubmed/6478460>	dcterms:identifier	"6478460".
+<http://identifiers.org/pubmed/6478460>	rdf:type	fabio:JournalArticle .
+gs:GS_52_E1	gs:journal_name	"Carbohydr Res".
+gs:GS_52_E1	gs:journal_site	"Yamashita K._et_al_pp.281-282".
+gs:GS_52_E1	gs:journal_title	"Sialic acid-containing sugar chains of hen ovalbumin and ovomucoid.".
+gs:GS_52_E1	gs:organism	"hen".
+gs:GS_52_E1	gs:taxonomy_name	"Gallus gallus (Chicken)".
+gs:GS_52_E1	gs:taxonomy_id	"31".
+gs:GS_52_E1	gs:tissue_type	"egg white".
+
+gs:Glycosample	gs:has_resource	gs:GS_53.
+gs:GS_53	gs:glycosample_id	"GS_53".
+gs:GS_53	dcterms:identifier	"GS_53".
+gs:GS_53	rdf:type	gs:Sample.
+gs:GS_53	gs:glycosample_entry	gs:GS_53_E1.
+gs:GS_53_E1	rdf:type	gs:Sample_Entry.
+gs:GS_53_E1	gs:doi	"10.1351/pac198456070821".
+gs:GS_53_E1	dcterms:reference	<http://doi.org/10.1351/pac198456070821>.
+<http://doi.org/10.1351/pac198456070821>	dcterms:identifier	"10.1351/pac198456070821".
+gs:GS_53_E1	dcterms:reference	<http://identifiers.org/doi/10.1351/pac198456070821>.
+<http://doi.org/10.1351/pac198456070821>	rdf:type	fabio:JournalArticle .
+gs:GS_53_E1	gs:journal_name	"Pure and Applied Chemistry".
+gs:GS_53_E1	gs:journal_site	"Kobata A. and Yamashita K_Fig.6".
+gs:GS_53_E1	gs:journal_title	"The sugar chains of γ-glutamyl trans-peptidase".
+gs:GS_53_E1	gs:organism	"rat".
+gs:GS_53_E1	gs:taxonomy_name	"Rattus norvegicus (Rat)".
+gs:GS_53_E1	gs:taxonomy_id	"10116".
+gs:GS_53_E1	gs:sample_type	"rat liver".
+
+gs:Glycosample	gs:has_resource	gs:GS_54.
+gs:GS_54	gs:glycosample_id	"GS_54".
+gs:GS_54	dcterms:identifier	"GS_54".
+gs:GS_54	rdf:type	gs:Sample.
+gs:GS_54	gs:glycosample_entry	gs:GS_54_E1.
+gs:GS_54_E1	rdf:type	gs:Sample_Entry.
+gs:GS_54_E1	gs:doi	"10.1351/pac198456070821".
+gs:GS_54_E1	dcterms:reference	<http://doi.org/10.1351/pac198456070821>.
+<http://doi.org/10.1351/pac198456070821>	dcterms:identifier	"10.1351/pac198456070821".
+gs:GS_54_E1	dcterms:reference	<http://identifiers.org/doi/10.1351/pac198456070821>.
+<http://doi.org/10.1351/pac198456070821>	rdf:type	fabio:JournalArticle .
+gs:GS_54_E1	gs:journal_name	"Pure and Applied Chemistry".
+gs:GS_54_E1	gs:journal_site	"Kobata A. and Yamashita K_Fig.6".
+gs:GS_54_E1	gs:journal_title	"The sugar chains of γ-glutamyl trans-peptidase".
+gs:GS_54_E1	gs:organism	"rat".
+gs:GS_54_E1	gs:taxonomy_name	"Rattus norvegicus (Rat)".
+gs:GS_54_E1	gs:taxonomy_id	"10116".
+gs:GS_54_E1	gs:disease	"hepatoma".
+gs:GS_54_E1	gs:sample_type	"rat ascites AH-66 hepatoma".
+
+gs:Glycosample	gs:has_resource	gs:GS_6.
+gs:GS_6	gs:glycosample_id	"GS_6".
+gs:GS_6	dcterms:identifier	"GS_6".
+gs:GS_6	rdf:type	gs:Sample.
+gs:GS_6	gs:glycosample_entry	gs:GS_6_E1.
+gs:GS_6_E1	rdf:type	gs:Sample_Entry.
+gs:GS_6	gs:glycosample_entry	gs:GS_6_E2.
+gs:GS_6_E2	rdf:type	gs:Sample_Entry.
+gs:GS_6_E1	gs:pmid	"8477709".
+gs:GS_6_E1	dcterms:reference	<http://identifiers.org/pubmed/8477709>.
+<http://identifiers.org/pubmed/8477709>	dcterms:identifier	"8477709".
+<http://identifiers.org/pubmed/8477709>	rdf:type	fabio:JournalArticle .
+gs:GS_6_E2	gs:pmid	"728996".
+gs:GS_6_E2	dcterms:reference	<http://identifiers.org/pubmed/728996>.
+<http://identifiers.org/pubmed/728996>	dcterms:identifier	"728996".
+<http://identifiers.org/pubmed/728996>	rdf:type	fabio:JournalArticle .
+gs:GS_6_E1	gs:journal_name	"Eur. J. Biochem.".
+gs:GS_6_E2	gs:journal_name	"Cell".
+gs:GS_6_E1	gs:journal_site	"Nimtz M._et_al_Table4".
+gs:GS_6_E2	gs:journal_site	"Lawn RM/_et_al_".
+gs:GS_6_E1	gs:journal_title	"Structures of sialylated oligosaccharides of human erythropoietin expressed in recombinant BHK-21 cells.".
+gs:GS_6_E2	gs:journal_title	"The isolation and characterization of linked delta- and beta-globin genes from a cloned library of human DNA.".
+gs:GS_6_E1	gs:biomaterial_provider	"Elanex Pharmaceuticals (Bothell, USA)".
+gs:GS_6_E1	gs:host	"Baby-hamster-kidney (BHK)".
+gs:GS_6_E2	gs:recombinant_information	"see PMID:728996".
+gs:GS_6_E1	gs:cell_line	"recombinant BHK-21 cells (BHK cells transfected with an expression vector containing the human EPO gene)".
+gs:GS_6_E1	gs:sample_type	"total human EPO protein".
+
+gs:Glycosample	gs:has_resource	gs:GS_7.
+gs:GS_7	gs:glycosample_id	"GS_7".
+gs:GS_7	dcterms:identifier	"GS_7".
+gs:GS_7	rdf:type	gs:Sample.
+gs:GS_7	gs:glycosample_entry	gs:GS_7_E1.
+gs:GS_7_E1	rdf:type	gs:Sample_Entry.
+gs:GS_7	gs:glycosample_entry	gs:GS_7_E2.
+gs:GS_7_E2	rdf:type	gs:Sample_Entry.
+gs:GS_7_E1	gs:pmid	"3346214".
+gs:GS_7_E1	dcterms:reference	<http://identifiers.org/pubmed/3346214>.
+<http://identifiers.org/pubmed/3346214>	dcterms:identifier	"3346214".
+<http://identifiers.org/pubmed/3346214>	rdf:type	fabio:JournalArticle .
+gs:GS_7_E2	gs:pmid	"3607040".
+gs:GS_7_E2	dcterms:reference	<http://identifiers.org/pubmed/3607040>.
+<http://identifiers.org/pubmed/3607040>	dcterms:identifier	"3607040".
+<http://identifiers.org/pubmed/3607040>	rdf:type	fabio:JournalArticle .
+gs:GS_7_E1	gs:journal_name	"The Journal of Biological Chemistry".
+gs:GS_7_E2	gs:journal_name	"Biochemistry".
+gs:GS_7_E1	gs:journal_site	"Takeuchi M._et_al_Table2".
+gs:GS_7_E2	gs:journal_site	"Davis JM._et_al_".
+gs:GS_7_E1	gs:journal_title	"Comparative study of the asparagine-linked sugar chains of human erythropoietins purified from urine and the culture medium of recombinant Chinese hamster ovary cells.".
+gs:GS_7_E2	gs:journal_title	"Characterization of recombinant human erythropoietin produced in Chinese hamster ovary cells.".
+gs:GS_7_E2	gs:recombinant_information	"see PMID:3607040".
+gs:GS_7_E1	gs:cell_line	"recombinant CHO cells".
+
+gs:Glycosample	gs:has_resource	gs:GS_8.
+gs:GS_8	gs:glycosample_id	"GS_8".
+gs:GS_8	dcterms:identifier	"GS_8".
+gs:GS_8	rdf:type	gs:Sample.
+gs:GS_8	gs:glycosample_entry	gs:GS_8_E1.
+gs:GS_8_E1	rdf:type	gs:Sample_Entry.
+gs:GS_8_E1	gs:pmid	"3346214".
+gs:GS_8_E1	dcterms:reference	<http://identifiers.org/pubmed/3346214>.
+<http://identifiers.org/pubmed/3346214>	dcterms:identifier	"3346214".
+<http://identifiers.org/pubmed/3346214>	rdf:type	fabio:JournalArticle .
+gs:GS_8_E1	gs:journal_name	"The Journal of Biological Chemistry".
+gs:GS_8_E1	gs:journal_site	"Takeuchi M._et_al_Table2".
+gs:GS_8_E1	gs:journal_title	"Comparative study of the asparagine-linked sugar chains of human erythropoietins purified from urine and the culture medium of recombinant Chinese hamster ovary cells.".
+gs:GS_8_E1	gs:tissue_type	"urine".
+gs:GS_8_E1	gs:disease	"aplastic anemia".
+
+gs:Glycosample	gs:has_resource	gs:GS_9.
+gs:GS_9	gs:glycosample_id	"GS_9".
+gs:GS_9	dcterms:identifier	"GS_9".
+gs:GS_9	rdf:type	gs:Sample.
+gs:GS_9	gs:glycosample_entry	gs:GS_9_E1.
+gs:GS_9_E1	rdf:type	gs:Sample_Entry.
+gs:GS_9_E1	gs:pmid	"10764840".
+gs:GS_9_E1	dcterms:reference	<http://identifiers.org/pubmed/10764840>.
+<http://identifiers.org/pubmed/10764840>	dcterms:identifier	"10764840".
+<http://identifiers.org/pubmed/10764840>	rdf:type	fabio:JournalArticle .
+gs:GS_9_E1	gs:journal_name	"Glycobiology".
+gs:GS_9_E1	gs:journal_site	"Cointe D._et_al_Table1".
+gs:GS_9_E1	gs:journal_title	"Unusual N-glycosylation of a recombinant human erythropoietin expressed in a human lymphoblastoid cell line does not alter its biological properties.".
+gs:GS_9_E1	gs:recombinant_information	"human B lymphoblastoid RPMI 1788 cells (ACTT number CCL 156)".
+gs:GS_9_E1	gs:cell_line	"RPMI 1788 cells (human lymphoblastoid cell line) was produced from human B RPMI 1788 cells.".
+gs:GS_9_E1	gs:sample_type	"human gene for EPO".
+
