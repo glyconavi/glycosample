@@ -1,0 +1,7 @@
+select distinct ?res
+from <http://glyconavi.org/database/glycosample>
+where {
+?s <http://purl.org/dc/terms/identifier> ?gsid .
+VALUES ?gsid { "GS_1" }
+?s <http://glyconavi.org/glycobio/glycosample/glycosample_entry> ?res .
+}
