@@ -1,0 +1,29 @@
+prefix gs: <http://glyconavi.org/glycobio/glycosample/>
+select distinct ?gsid ?organism ?taxonomy_name ?provider ?tissue_type ?cell_line ?disease
+from <http://glyconavi.org/database/glycosample>
+where {
+?gs <http://purl.org/dc/terms/identifier> ?gsid .
+?gs	gs:glycosample_entry	?entry .
+
+OPTIONAL {
+?entry gs:organism ?organism .
+}
+OPTIONAL {
+?entry gs:taxonomy_name ?taxonomy_name .
+}
+OPTIONAL {
+?entry gs:biomaterial_provider ?provider .
+}
+OPTIONAL {
+?entry gs:tissue_type ?tissue_type .
+}
+OPTIONAL {
+?entry gs:cell_line ?cell_line .
+}
+OPTIONAL {
+?entry gs:disease ?disease .
+}
+
+
+}
+order by DESC (?organism) ?gsid
