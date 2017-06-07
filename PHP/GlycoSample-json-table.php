@@ -1,5 +1,10 @@
 <?php
-header('Content-Type: text/plain;charset=UTF-8');
+include("../head.php");
+?>
+<body>
+
+<?php
+//header('Content-Type: text/plain;charset=UTF-8');
 ini_set('auto_detect_line_endings', 1);
 ini_set('auto_detect_line_endings', 1);
 date_default_timezone_set('Asia/Tokyo');
@@ -53,13 +58,54 @@ else{
         //$jsonarray = json_decode( $getdata );
         //$jsonData = json_encode( $jsonarray, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT);
         //echo $jsonData;
-        echo $getdata;
+        //echo $getdata;
+
+        $json = mb_convert_encoding($getdata, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
+        $arr = json_decode($json,true);
+
+        if ($arr === NULL) {
+            return;
+        }
+        else{
+            
+            $resarray = array();
+            $arr = $arr["results"]["bindings"];
+
+
+        ?>
+        <table class="TwoWayBack">
+            <thead>
+            <tr>
+                <th scope="cols">Entry</th>
+                <th scope="cols">data</th>
+            </tr>
+            </thead>
+            <tbody>
+        <?php
+            foreach ($arr as $ressouce) {
+                echo '<tr>'."\n";
+
+                if(strpos($ressouce["data"]["value"], 'http') !== false) {
+                    echo '<th scope="row">'.$ressouce["Entry"]["value"].'</th>'."\n";
+                    echo '<td><a href="'.$ressouce["data"]["value"].' target="_blank" >'.$ressouce["data"]["value"].'</a></td>'."\n";
+                    echo '</tr>'."\n";
+                }
+                else {
+                    echo '<th scope="row">'.$ressouce["Entry"]["value"].'</th>'."\n";
+                    echo '<td>'.$ressouce["data"]["value"].'</td>'."\n";
+                    echo '</tr>'."\n";
+                }
+            }
+        ?>
+            </tbody>
+        </table>
+        <?php    
+        }
 
 
 
 
 
-        
     }
 
     
@@ -110,3 +156,6 @@ http://purl.org/dc/terms/identifier
 */
 
 ?>
+
+</body>
+</html>
