@@ -1,47 +1,59 @@
-@prefix ns1: <http://purl.obolibrary.org/obo/> .
-@prefix ns2: <http://> .
-@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix gs: <http://purl.jp/bio/12/glyco/sample#> .
  
 <http://bio.glyconavi.org/GlycoSample/GS_40>
-    a ns1:OBI_0000747 ;
-    ns3:description "Py-BHK cells derived from BHK cells transformed by polyoma virus" ;
-    ns3:identifier "GS_40" ;
-    ns3:modified "2017-09-12" ;
-    ns1:NCIT_C25447 [ a ns1:NCBITaxon_10026 ;
-                rdfs:label "hamster" ;
-                ns2:rdf.propertyType "organism" ;
-                ns2:rdf.propertyValue "hamster" ] ,
+    a gs:Sample ;
+    dcterms:title "GS_40" ;
+    dcterms:description "Py-BHK cells derived from BHK cells transformed by polyoma virus" ;
+    dcterms:identifier "GS_40" ;
+    dcterms:modified "2017-09-13" ;
+    obo:NCIT_C25447 
+            [ 
+                rdf:propertyType [
+                    rdfs:label "organism" ;
+                    a obo:UBERON_0000468 .
+                ];
+                rdf:propertyValue [
+                    rdfs:label "hamster" ;
+                    a obo:NCBITaxon_10026 .
+                ].
+            ] ,
             [
-                rdfs:label "surface of normal and transformed cells" ;
-                ns2:rdf.propertyType "ISOLATION SOURCE" ;
-                ns2:rdf.propertyValue "surface of normal and transformed cells" 
+                rdf:propertyType [
+                    rdfs:label "ISOLATION SOURCE" .
+                ];
+                rdf:propertyValue [
+                    rdfs:label "surface of normal and transformed cells" .
+                ].
             ],
             [
-                rdfs:label "cells transformed by a temperature-sensitive (ts) mutant of Rous sacoma virus" ;
-                ns2:rdf.propertyType "CELL LINE" ;
-                ns2:rdf.propertyValue "cells transformed by a temperature-sensitive (ts) mutant of Rous sacoma virus" 
+                rdf:propertyType [
+                    rdfs:label "CELL LINE" ;
+                    a sio:SIO_010054 .
+                ];
+                rdf:propertyValue [
+                    rdfs:label "processing of BHK21-C13 cells, those transformed with the Bryan strain of Rous sarcoma virus (C13-B4), and those transformed by polyoma virus (Py Y)." .
+                ].
             ],
             [
-                rdfs:label "PMID:4340161" ;
-                ns2:rdf.propertyType "PMID" ;
-                ns2:rdf.propertyValue "PMID:4340161" 
+                rdf:propertyType [
+                    rdfs:label "PMID" .
+                ];
+                rdf:propertyValue [
+                    rdfs:label "PMID:4340161" .
+                ].
             ],
             [
-                rdfs:label "baby hamster kidney cells" ;
-                ns2:rdf.propertyType "ISOLATION SOURCE" ;
-                ns2:rdf.propertyValue "baby hamster kidney cells" 
-            ],
-            [
-                rdfs:label "processing of BHK21-C13 cells, those transformed with the Bryan strain of Rous sarcoma virus (C13-B4), and those transformed by polyoma virus (Py Y)." ;
-                ns2:rdf.propertyType "CELL LINE" ;
-                ns2:rdf.propertyValue "processing of BHK21-C13 cells, those transformed with the Bryan strain of Rous sarcoma virus (C13-B4), and those transformed by polyoma virus (Py Y)." 
-            ],
-            [
-                rdfs:label "PMID:4340161" ;
-                ns2:rdf.propertyType "PMID" ;
-                ns2:rdf.propertyValue "PMID:4340161" 
+                rdf:propertyType [
+                    rdfs:label "ISOLATION SOURCE" .
+                ];
+                rdf:propertyValue [
+                    rdfs:label "baby hamster kidney cells" .
+                ].
             ].
